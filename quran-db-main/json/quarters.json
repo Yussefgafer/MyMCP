@@ -1,0 +1,1922 @@
+[
+  {
+    "id": 1,
+    "name": "الربع 1",
+    "verse_count": 32,
+    "page_count": 5,
+    "group_id": 1,
+    "part_id": 1
+  },
+  {
+    "id": 2,
+    "name": "الربع 2",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 1,
+    "part_id": 1
+  },
+  {
+    "id": 3,
+    "name": "الربع 3",
+    "verse_count": 16,
+    "page_count": 3,
+    "group_id": 1,
+    "part_id": 1
+  },
+  {
+    "id": 4,
+    "name": "الربع 4",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 1,
+    "part_id": 1
+  },
+  {
+    "id": 5,
+    "name": "الربع 5",
+    "verse_count": 17,
+    "page_count": 4,
+    "group_id": 2,
+    "part_id": 1
+  },
+  {
+    "id": 6,
+    "name": "الربع 6",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 2,
+    "part_id": 1
+  },
+  {
+    "id": 7,
+    "name": "الربع 7",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 2,
+    "part_id": 1
+  },
+  {
+    "id": 8,
+    "name": "الربع 8",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 2,
+    "part_id": 1
+  },
+  {
+    "id": 9,
+    "name": "الربع 9",
+    "verse_count": 16,
+    "page_count": 3,
+    "group_id": 3,
+    "part_id": 2
+  },
+  {
+    "id": 10,
+    "name": "الربع 10",
+    "verse_count": 19,
+    "page_count": 3,
+    "group_id": 3,
+    "part_id": 2
+  },
+  {
+    "id": 11,
+    "name": "الربع 11",
+    "verse_count": 12,
+    "page_count": 3,
+    "group_id": 3,
+    "part_id": 2
+  },
+  {
+    "id": 12,
+    "name": "الربع 12",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 3,
+    "part_id": 2
+  },
+  {
+    "id": 13,
+    "name": "الربع 13",
+    "verse_count": 16,
+    "page_count": 3,
+    "group_id": 4,
+    "part_id": 2
+  },
+  {
+    "id": 14,
+    "name": "الربع 14",
+    "verse_count": 14,
+    "page_count": 4,
+    "group_id": 4,
+    "part_id": 2
+  },
+  {
+    "id": 15,
+    "name": "الربع 15",
+    "verse_count": 10,
+    "page_count": 3,
+    "group_id": 4,
+    "part_id": 2
+  },
+  {
+    "id": 16,
+    "name": "الربع 16",
+    "verse_count": 10,
+    "page_count": 3,
+    "group_id": 4,
+    "part_id": 2
+  },
+  {
+    "id": 17,
+    "name": "الربع 17",
+    "verse_count": 10,
+    "page_count": 3,
+    "group_id": 5,
+    "part_id": 3
+  },
+  {
+    "id": 18,
+    "name": "الربع 18",
+    "verse_count": 9,
+    "page_count": 3,
+    "group_id": 5,
+    "part_id": 3
+  },
+  {
+    "id": 19,
+    "name": "الربع 19",
+    "verse_count": 11,
+    "page_count": 3,
+    "group_id": 5,
+    "part_id": 3
+  },
+  {
+    "id": 20,
+    "name": "الربع 20",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 5,
+    "part_id": 3
+  },
+  {
+    "id": 21,
+    "name": "الربع 21",
+    "verse_count": 18,
+    "page_count": 4,
+    "group_id": 6,
+    "part_id": 3
+  },
+  {
+    "id": 22,
+    "name": "الربع 22",
+    "verse_count": 19,
+    "page_count": 3,
+    "group_id": 6,
+    "part_id": 3
+  },
+  {
+    "id": 23,
+    "name": "الربع 23",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 6,
+    "part_id": 3
+  },
+  {
+    "id": 24,
+    "name": "الربع 24",
+    "verse_count": 18,
+    "page_count": 4,
+    "group_id": 6,
+    "part_id": 3
+  },
+  {
+    "id": 25,
+    "name": "الربع 25",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 7,
+    "part_id": 4
+  },
+  {
+    "id": 26,
+    "name": "الربع 26",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 7,
+    "part_id": 4
+  },
+  {
+    "id": 27,
+    "name": "الربع 27",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 7,
+    "part_id": 4
+  },
+  {
+    "id": 28,
+    "name": "الربع 28",
+    "verse_count": 18,
+    "page_count": 4,
+    "group_id": 7,
+    "part_id": 4
+  },
+  {
+    "id": 29,
+    "name": "الربع 29",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 8,
+    "part_id": 4
+  },
+  {
+    "id": 30,
+    "name": "الربع 30",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 8,
+    "part_id": 4
+  },
+  {
+    "id": 31,
+    "name": "الربع 31",
+    "verse_count": 11,
+    "page_count": 2,
+    "group_id": 8,
+    "part_id": 4
+  },
+  {
+    "id": 32,
+    "name": "الربع 32",
+    "verse_count": 12,
+    "page_count": 3,
+    "group_id": 8,
+    "part_id": 4
+  },
+  {
+    "id": 33,
+    "name": "الربع 33",
+    "verse_count": 12,
+    "page_count": 3,
+    "group_id": 9,
+    "part_id": 5
+  },
+  {
+    "id": 34,
+    "name": "الربع 34",
+    "verse_count": 22,
+    "page_count": 4,
+    "group_id": 9,
+    "part_id": 5
+  },
+  {
+    "id": 35,
+    "name": "الربع 35",
+    "verse_count": 16,
+    "page_count": 3,
+    "group_id": 9,
+    "part_id": 5
+  },
+  {
+    "id": 36,
+    "name": "الربع 36",
+    "verse_count": 14,
+    "page_count": 4,
+    "group_id": 9,
+    "part_id": 5
+  },
+  {
+    "id": 37,
+    "name": "الربع 37",
+    "verse_count": 12,
+    "page_count": 3,
+    "group_id": 10,
+    "part_id": 5
+  },
+  {
+    "id": 38,
+    "name": "الربع 38",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 10,
+    "part_id": 5
+  },
+  {
+    "id": 39,
+    "name": "الربع 39",
+    "verse_count": 21,
+    "page_count": 3,
+    "group_id": 10,
+    "part_id": 5
+  },
+  {
+    "id": 40,
+    "name": "الربع 40",
+    "verse_count": 13,
+    "page_count": 2,
+    "group_id": 10,
+    "part_id": 5
+  },
+  {
+    "id": 41,
+    "name": "الربع 41",
+    "verse_count": 15,
+    "page_count": 2,
+    "group_id": 11,
+    "part_id": 6
+  },
+  {
+    "id": 42,
+    "name": "الربع 42",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 11,
+    "part_id": 6
+  },
+  {
+    "id": 43,
+    "name": "الربع 43",
+    "verse_count": 11,
+    "page_count": 4,
+    "group_id": 11,
+    "part_id": 6
+  },
+  {
+    "id": 44,
+    "name": "الربع 44",
+    "verse_count": 15,
+    "page_count": 4,
+    "group_id": 11,
+    "part_id": 6
+  },
+  {
+    "id": 45,
+    "name": "الربع 45",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 12,
+    "part_id": 6
+  },
+  {
+    "id": 46,
+    "name": "الربع 46",
+    "verse_count": 10,
+    "page_count": 3,
+    "group_id": 12,
+    "part_id": 6
+  },
+  {
+    "id": 47,
+    "name": "الربع 47",
+    "verse_count": 16,
+    "page_count": 3,
+    "group_id": 12,
+    "part_id": 6
+  },
+  {
+    "id": 48,
+    "name": "الربع 48",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 12,
+    "part_id": 6
+  },
+  {
+    "id": 49,
+    "name": "الربع 49",
+    "verse_count": 15,
+    "page_count": 4,
+    "group_id": 13,
+    "part_id": 7
+  },
+  {
+    "id": 50,
+    "name": "الربع 50",
+    "verse_count": 12,
+    "page_count": 2,
+    "group_id": 13,
+    "part_id": 7
+  },
+  {
+    "id": 51,
+    "name": "الربع 51",
+    "verse_count": 24,
+    "page_count": 4,
+    "group_id": 13,
+    "part_id": 7
+  },
+  {
+    "id": 52,
+    "name": "الربع 52",
+    "verse_count": 23,
+    "page_count": 3,
+    "group_id": 13,
+    "part_id": 7
+  },
+  {
+    "id": 53,
+    "name": "الربع 53",
+    "verse_count": 23,
+    "page_count": 3,
+    "group_id": 14,
+    "part_id": 7
+  },
+  {
+    "id": 54,
+    "name": "الربع 54",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 14,
+    "part_id": 7
+  },
+  {
+    "id": 55,
+    "name": "الربع 55",
+    "verse_count": 21,
+    "page_count": 3,
+    "group_id": 14,
+    "part_id": 7
+  },
+  {
+    "id": 56,
+    "name": "الربع 56",
+    "verse_count": 16,
+    "page_count": 2,
+    "group_id": 14,
+    "part_id": 7
+  },
+  {
+    "id": 57,
+    "name": "الربع 57",
+    "verse_count": 16,
+    "page_count": 3,
+    "group_id": 15,
+    "part_id": 8
+  },
+  {
+    "id": 58,
+    "name": "الربع 58",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 15,
+    "part_id": 8
+  },
+  {
+    "id": 59,
+    "name": "الربع 59",
+    "verse_count": 10,
+    "page_count": 3,
+    "group_id": 15,
+    "part_id": 8
+  },
+  {
+    "id": 60,
+    "name": "الربع 60",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 15,
+    "part_id": 8
+  },
+  {
+    "id": 61,
+    "name": "الربع 61",
+    "verse_count": 30,
+    "page_count": 3,
+    "group_id": 16,
+    "part_id": 8
+  },
+  {
+    "id": 62,
+    "name": "الربع 62",
+    "verse_count": 16,
+    "page_count": 3,
+    "group_id": 16,
+    "part_id": 8
+  },
+  {
+    "id": 63,
+    "name": "الربع 63",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 16,
+    "part_id": 8
+  },
+  {
+    "id": 64,
+    "name": "الربع 64",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 16,
+    "part_id": 8
+  },
+  {
+    "id": 65,
+    "name": "الربع 65",
+    "verse_count": 29,
+    "page_count": 3,
+    "group_id": 17,
+    "part_id": 9
+  },
+  {
+    "id": 66,
+    "name": "الربع 66",
+    "verse_count": 25,
+    "page_count": 4,
+    "group_id": 17,
+    "part_id": 9
+  },
+  {
+    "id": 67,
+    "name": "الربع 67",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 17,
+    "part_id": 9
+  },
+  {
+    "id": 68,
+    "name": "الربع 68",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 17,
+    "part_id": 9
+  },
+  {
+    "id": 69,
+    "name": "الربع 69",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 18,
+    "part_id": 9
+  },
+  {
+    "id": 70,
+    "name": "الربع 70",
+    "verse_count": 18,
+    "page_count": 2,
+    "group_id": 18,
+    "part_id": 9
+  },
+  {
+    "id": 71,
+    "name": "الربع 71",
+    "verse_count": 21,
+    "page_count": 3,
+    "group_id": 18,
+    "part_id": 9
+  },
+  {
+    "id": 72,
+    "name": "الربع 72",
+    "verse_count": 19,
+    "page_count": 3,
+    "group_id": 18,
+    "part_id": 9
+  },
+  {
+    "id": 73,
+    "name": "الربع 73",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 19,
+    "part_id": 10
+  },
+  {
+    "id": 74,
+    "name": "الربع 74",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 19,
+    "part_id": 10
+  },
+  {
+    "id": 75,
+    "name": "الربع 75",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 19,
+    "part_id": 10
+  },
+  {
+    "id": 76,
+    "name": "الربع 76",
+    "verse_count": 15,
+    "page_count": 4,
+    "group_id": 19,
+    "part_id": 10
+  },
+  {
+    "id": 77,
+    "name": "الربع 77",
+    "verse_count": 12,
+    "page_count": 3,
+    "group_id": 20,
+    "part_id": 10
+  },
+  {
+    "id": 78,
+    "name": "الربع 78",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 20,
+    "part_id": 10
+  },
+  {
+    "id": 79,
+    "name": "الربع 79",
+    "verse_count": 15,
+    "page_count": 4,
+    "group_id": 20,
+    "part_id": 10
+  },
+  {
+    "id": 80,
+    "name": "الربع 80",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 20,
+    "part_id": 10
+  },
+  {
+    "id": 81,
+    "name": "الربع 81",
+    "verse_count": 18,
+    "page_count": 4,
+    "group_id": 21,
+    "part_id": 11
+  },
+  {
+    "id": 82,
+    "name": "الربع 82",
+    "verse_count": 11,
+    "page_count": 3,
+    "group_id": 21,
+    "part_id": 11
+  },
+  {
+    "id": 83,
+    "name": "الربع 83",
+    "verse_count": 18,
+    "page_count": 4,
+    "group_id": 21,
+    "part_id": 11
+  },
+  {
+    "id": 84,
+    "name": "الربع 84",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 21,
+    "part_id": 11
+  },
+  {
+    "id": 85,
+    "name": "الربع 85",
+    "verse_count": 27,
+    "page_count": 3,
+    "group_id": 22,
+    "part_id": 11
+  },
+  {
+    "id": 86,
+    "name": "الربع 86",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 22,
+    "part_id": 11
+  },
+  {
+    "id": 87,
+    "name": "الربع 87",
+    "verse_count": 19,
+    "page_count": 3,
+    "group_id": 22,
+    "part_id": 11
+  },
+  {
+    "id": 88,
+    "name": "الربع 88",
+    "verse_count": 25,
+    "page_count": 3,
+    "group_id": 22,
+    "part_id": 11
+  },
+  {
+    "id": 89,
+    "name": "الربع 89",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 23,
+    "part_id": 12
+  },
+  {
+    "id": 90,
+    "name": "الربع 90",
+    "verse_count": 17,
+    "page_count": 3,
+    "group_id": 23,
+    "part_id": 12
+  },
+  {
+    "id": 91,
+    "name": "الربع 91",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 23,
+    "part_id": 12
+  },
+  {
+    "id": 92,
+    "name": "الربع 92",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 23,
+    "part_id": 12
+  },
+  {
+    "id": 93,
+    "name": "الربع 93",
+    "verse_count": 24,
+    "page_count": 3,
+    "group_id": 24,
+    "part_id": 12
+  },
+  {
+    "id": 94,
+    "name": "الربع 94",
+    "verse_count": 22,
+    "page_count": 4,
+    "group_id": 24,
+    "part_id": 12
+  },
+  {
+    "id": 95,
+    "name": "الربع 95",
+    "verse_count": 23,
+    "page_count": 3,
+    "group_id": 24,
+    "part_id": 12
+  },
+  {
+    "id": 96,
+    "name": "الربع 96",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 24,
+    "part_id": 12
+  },
+  {
+    "id": 97,
+    "name": "الربع 97",
+    "verse_count": 24,
+    "page_count": 3,
+    "group_id": 25,
+    "part_id": 13
+  },
+  {
+    "id": 98,
+    "name": "الربع 98",
+    "verse_count": 24,
+    "page_count": 4,
+    "group_id": 25,
+    "part_id": 13
+  },
+  {
+    "id": 99,
+    "name": "الربع 99",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 25,
+    "part_id": 13
+  },
+  {
+    "id": 100,
+    "name": "الربع 100",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 25,
+    "part_id": 13
+  },
+  {
+    "id": 101,
+    "name": "الربع 101",
+    "verse_count": 16,
+    "page_count": 2,
+    "group_id": 26,
+    "part_id": 13
+  },
+  {
+    "id": 102,
+    "name": "الربع 102",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 26,
+    "part_id": 13
+  },
+  {
+    "id": 103,
+    "name": "الربع 103",
+    "verse_count": 18,
+    "page_count": 4,
+    "group_id": 26,
+    "part_id": 13
+  },
+  {
+    "id": 104,
+    "name": "الربع 104",
+    "verse_count": 25,
+    "page_count": 3,
+    "group_id": 26,
+    "part_id": 13
+  },
+  {
+    "id": 105,
+    "name": "الربع 105",
+    "verse_count": 49,
+    "page_count": 3,
+    "group_id": 27,
+    "part_id": 14
+  },
+  {
+    "id": 106,
+    "name": "الربع 106",
+    "verse_count": 50,
+    "page_count": 4,
+    "group_id": 27,
+    "part_id": 14
+  },
+  {
+    "id": 107,
+    "name": "الربع 107",
+    "verse_count": 29,
+    "page_count": 4,
+    "group_id": 27,
+    "part_id": 14
+  },
+  {
+    "id": 108,
+    "name": "الربع 108",
+    "verse_count": 21,
+    "page_count": 3,
+    "group_id": 27,
+    "part_id": 14
+  },
+  {
+    "id": 109,
+    "name": "الربع 109",
+    "verse_count": 24,
+    "page_count": 4,
+    "group_id": 28,
+    "part_id": 14
+  },
+  {
+    "id": 110,
+    "name": "الربع 110",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 28,
+    "part_id": 14
+  },
+  {
+    "id": 111,
+    "name": "الربع 111",
+    "verse_count": 21,
+    "page_count": 3,
+    "group_id": 28,
+    "part_id": 14
+  },
+  {
+    "id": 112,
+    "name": "الربع 112",
+    "verse_count": 18,
+    "page_count": 2,
+    "group_id": 28,
+    "part_id": 14
+  },
+  {
+    "id": 113,
+    "name": "الربع 113",
+    "verse_count": 22,
+    "page_count": 3,
+    "group_id": 29,
+    "part_id": 15
+  },
+  {
+    "id": 114,
+    "name": "الربع 114",
+    "verse_count": 27,
+    "page_count": 3,
+    "group_id": 29,
+    "part_id": 15
+  },
+  {
+    "id": 115,
+    "name": "الربع 115",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 29,
+    "part_id": 15
+  },
+  {
+    "id": 116,
+    "name": "الربع 116",
+    "verse_count": 29,
+    "page_count": 4,
+    "group_id": 29,
+    "part_id": 15
+  },
+  {
+    "id": 117,
+    "name": "الربع 117",
+    "verse_count": 29,
+    "page_count": 4,
+    "group_id": 30,
+    "part_id": 15
+  },
+  {
+    "id": 118,
+    "name": "الربع 118",
+    "verse_count": 15,
+    "page_count": 3,
+    "group_id": 30,
+    "part_id": 15
+  },
+  {
+    "id": 119,
+    "name": "الربع 119",
+    "verse_count": 19,
+    "page_count": 3,
+    "group_id": 30,
+    "part_id": 15
+  },
+  {
+    "id": 120,
+    "name": "الربع 120",
+    "verse_count": 24,
+    "page_count": 3,
+    "group_id": 30,
+    "part_id": 15
+  },
+  {
+    "id": 121,
+    "name": "الربع 121",
+    "verse_count": 24,
+    "page_count": 3,
+    "group_id": 31,
+    "part_id": 16
+  },
+  {
+    "id": 122,
+    "name": "الربع 122",
+    "verse_count": 33,
+    "page_count": 3,
+    "group_id": 31,
+    "part_id": 16
+  },
+  {
+    "id": 123,
+    "name": "الربع 123",
+    "verse_count": 37,
+    "page_count": 4,
+    "group_id": 31,
+    "part_id": 16
+  },
+  {
+    "id": 124,
+    "name": "الربع 124",
+    "verse_count": 40,
+    "page_count": 4,
+    "group_id": 31,
+    "part_id": 16
+  },
+  {
+    "id": 125,
+    "name": "الربع 125",
+    "verse_count": 54,
+    "page_count": 4,
+    "group_id": 32,
+    "part_id": 16
+  },
+  {
+    "id": 126,
+    "name": "الربع 126",
+    "verse_count": 28,
+    "page_count": 3,
+    "group_id": 32,
+    "part_id": 16
+  },
+  {
+    "id": 127,
+    "name": "الربع 127",
+    "verse_count": 28,
+    "page_count": 3,
+    "group_id": 32,
+    "part_id": 16
+  },
+  {
+    "id": 128,
+    "name": "الربع 128",
+    "verse_count": 25,
+    "page_count": 3,
+    "group_id": 32,
+    "part_id": 16
+  },
+  {
+    "id": 129,
+    "name": "الربع 129",
+    "verse_count": 28,
+    "page_count": 3,
+    "group_id": 33,
+    "part_id": 17
+  },
+  {
+    "id": 130,
+    "name": "الربع 130",
+    "verse_count": 22,
+    "page_count": 3,
+    "group_id": 33,
+    "part_id": 17
+  },
+  {
+    "id": 131,
+    "name": "الربع 131",
+    "verse_count": 32,
+    "page_count": 4,
+    "group_id": 33,
+    "part_id": 17
+  },
+  {
+    "id": 132,
+    "name": "الربع 132",
+    "verse_count": 30,
+    "page_count": 3,
+    "group_id": 33,
+    "part_id": 17
+  },
+  {
+    "id": 133,
+    "name": "الربع 133",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 34,
+    "part_id": 17
+  },
+  {
+    "id": 134,
+    "name": "الربع 134",
+    "verse_count": 19,
+    "page_count": 3,
+    "group_id": 34,
+    "part_id": 17
+  },
+  {
+    "id": 135,
+    "name": "الربع 135",
+    "verse_count": 22,
+    "page_count": 4,
+    "group_id": 34,
+    "part_id": 17
+  },
+  {
+    "id": 136,
+    "name": "الربع 136",
+    "verse_count": 19,
+    "page_count": 3,
+    "group_id": 34,
+    "part_id": 17
+  },
+  {
+    "id": 137,
+    "name": "الربع 137",
+    "verse_count": 35,
+    "page_count": 3,
+    "group_id": 35,
+    "part_id": 18
+  },
+  {
+    "id": 138,
+    "name": "الربع 138",
+    "verse_count": 39,
+    "page_count": 3,
+    "group_id": 35,
+    "part_id": 18
+  },
+  {
+    "id": 139,
+    "name": "الربع 139",
+    "verse_count": 44,
+    "page_count": 3,
+    "group_id": 35,
+    "part_id": 18
+  },
+  {
+    "id": 140,
+    "name": "الربع 140",
+    "verse_count": 20,
+    "page_count": 2,
+    "group_id": 35,
+    "part_id": 18
+  },
+  {
+    "id": 141,
+    "name": "الربع 141",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 36,
+    "part_id": 18
+  },
+  {
+    "id": 142,
+    "name": "الربع 142",
+    "verse_count": 18,
+    "page_count": 3,
+    "group_id": 36,
+    "part_id": 18
+  },
+  {
+    "id": 143,
+    "name": "الربع 143",
+    "verse_count": 12,
+    "page_count": 4,
+    "group_id": 36,
+    "part_id": 18
+  },
+  {
+    "id": 144,
+    "name": "الربع 144",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 36,
+    "part_id": 18
+  },
+  {
+    "id": 145,
+    "name": "الربع 145",
+    "verse_count": 32,
+    "page_count": 3,
+    "group_id": 37,
+    "part_id": 19
+  },
+  {
+    "id": 146,
+    "name": "الربع 146",
+    "verse_count": 25,
+    "page_count": 3,
+    "group_id": 37,
+    "part_id": 19
+  },
+  {
+    "id": 147,
+    "name": "الربع 147",
+    "verse_count": 51,
+    "page_count": 3,
+    "group_id": 37,
+    "part_id": 19
+  },
+  {
+    "id": 148,
+    "name": "الربع 148",
+    "verse_count": 59,
+    "page_count": 3,
+    "group_id": 37,
+    "part_id": 19
+  },
+  {
+    "id": 149,
+    "name": "الربع 149",
+    "verse_count": 70,
+    "page_count": 4,
+    "group_id": 38,
+    "part_id": 19
+  },
+  {
+    "id": 150,
+    "name": "الربع 150",
+    "verse_count": 47,
+    "page_count": 3,
+    "group_id": 38,
+    "part_id": 19
+  },
+  {
+    "id": 151,
+    "name": "الربع 151",
+    "verse_count": 26,
+    "page_count": 3,
+    "group_id": 38,
+    "part_id": 19
+  },
+  {
+    "id": 152,
+    "name": "الربع 152",
+    "verse_count": 29,
+    "page_count": 3,
+    "group_id": 38,
+    "part_id": 19
+  },
+  {
+    "id": 153,
+    "name": "الربع 153",
+    "verse_count": 26,
+    "page_count": 3,
+    "group_id": 39,
+    "part_id": 20
+  },
+  {
+    "id": 154,
+    "name": "الربع 154",
+    "verse_count": 23,
+    "page_count": 3,
+    "group_id": 39,
+    "part_id": 20
+  },
+  {
+    "id": 155,
+    "name": "الربع 155",
+    "verse_count": 17,
+    "page_count": 3,
+    "group_id": 39,
+    "part_id": 20
+  },
+  {
+    "id": 156,
+    "name": "الربع 156",
+    "verse_count": 22,
+    "page_count": 3,
+    "group_id": 39,
+    "part_id": 20
+  },
+  {
+    "id": 157,
+    "name": "الربع 157",
+    "verse_count": 25,
+    "page_count": 3,
+    "group_id": 40,
+    "part_id": 20
+  },
+  {
+    "id": 158,
+    "name": "الربع 158",
+    "verse_count": 13,
+    "page_count": 3,
+    "group_id": 40,
+    "part_id": 20
+  },
+  {
+    "id": 159,
+    "name": "الربع 159",
+    "verse_count": 25,
+    "page_count": 4,
+    "group_id": 40,
+    "part_id": 20
+  },
+  {
+    "id": 160,
+    "name": "الربع 160",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 40,
+    "part_id": 20
+  },
+  {
+    "id": 161,
+    "name": "الربع 161",
+    "verse_count": 24,
+    "page_count": 3,
+    "group_id": 41,
+    "part_id": 21
+  },
+  {
+    "id": 162,
+    "name": "الربع 162",
+    "verse_count": 30,
+    "page_count": 4,
+    "group_id": 41,
+    "part_id": 21
+  },
+  {
+    "id": 163,
+    "name": "الربع 163",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 41,
+    "part_id": 21
+  },
+  {
+    "id": 164,
+    "name": "الربع 164",
+    "verse_count": 28,
+    "page_count": 4,
+    "group_id": 41,
+    "part_id": 21
+  },
+  {
+    "id": 165,
+    "name": "الربع 165",
+    "verse_count": 23,
+    "page_count": 3,
+    "group_id": 42,
+    "part_id": 21
+  },
+  {
+    "id": 166,
+    "name": "الربع 166",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 42,
+    "part_id": 21
+  },
+  {
+    "id": 167,
+    "name": "الربع 167",
+    "verse_count": 17,
+    "page_count": 3,
+    "group_id": 42,
+    "part_id": 21
+  },
+  {
+    "id": 168,
+    "name": "الربع 168",
+    "verse_count": 13,
+    "page_count": 2,
+    "group_id": 42,
+    "part_id": 21
+  },
+  {
+    "id": 169,
+    "name": "الربع 169",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 43,
+    "part_id": 22
+  },
+  {
+    "id": 170,
+    "name": "الربع 170",
+    "verse_count": 9,
+    "page_count": 2,
+    "group_id": 43,
+    "part_id": 22
+  },
+  {
+    "id": 171,
+    "name": "الربع 171",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 43,
+    "part_id": 22
+  },
+  {
+    "id": 172,
+    "name": "الربع 172",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 43,
+    "part_id": 22
+  },
+  {
+    "id": 173,
+    "name": "الربع 173",
+    "verse_count": 22,
+    "page_count": 3,
+    "group_id": 44,
+    "part_id": 22
+  },
+  {
+    "id": 174,
+    "name": "الربع 174",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 44,
+    "part_id": 22
+  },
+  {
+    "id": 175,
+    "name": "الربع 175",
+    "verse_count": 26,
+    "page_count": 4,
+    "group_id": 44,
+    "part_id": 22
+  },
+  {
+    "id": 176,
+    "name": "الربع 176",
+    "verse_count": 32,
+    "page_count": 3,
+    "group_id": 44,
+    "part_id": 22
+  },
+  {
+    "id": 177,
+    "name": "الربع 177",
+    "verse_count": 32,
+    "page_count": 3,
+    "group_id": 45,
+    "part_id": 23
+  },
+  {
+    "id": 178,
+    "name": "الربع 178",
+    "verse_count": 45,
+    "page_count": 3,
+    "group_id": 45,
+    "part_id": 23
+  },
+  {
+    "id": 179,
+    "name": "الربع 179",
+    "verse_count": 61,
+    "page_count": 4,
+    "group_id": 45,
+    "part_id": 23
+  },
+  {
+    "id": 180,
+    "name": "الربع 180",
+    "verse_count": 62,
+    "page_count": 3,
+    "group_id": 45,
+    "part_id": 23
+  },
+  {
+    "id": 181,
+    "name": "الربع 181",
+    "verse_count": 58,
+    "page_count": 4,
+    "group_id": 46,
+    "part_id": 23
+  },
+  {
+    "id": 182,
+    "name": "الربع 182",
+    "verse_count": 31,
+    "page_count": 3,
+    "group_id": 46,
+    "part_id": 23
+  },
+  {
+    "id": 183,
+    "name": "الربع 183",
+    "verse_count": 44,
+    "page_count": 4,
+    "group_id": 46,
+    "part_id": 23
+  },
+  {
+    "id": 184,
+    "name": "الربع 184",
+    "verse_count": 24,
+    "page_count": 3,
+    "group_id": 46,
+    "part_id": 23
+  },
+  {
+    "id": 185,
+    "name": "الربع 185",
+    "verse_count": 21,
+    "page_count": 3,
+    "group_id": 47,
+    "part_id": 24
+  },
+  {
+    "id": 186,
+    "name": "الربع 186",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 47,
+    "part_id": 24
+  },
+  {
+    "id": 187,
+    "name": "الربع 187",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 47,
+    "part_id": 24
+  },
+  {
+    "id": 188,
+    "name": "الربع 188",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 47,
+    "part_id": 24
+  },
+  {
+    "id": 189,
+    "name": "الربع 189",
+    "verse_count": 25,
+    "page_count": 3,
+    "group_id": 48,
+    "part_id": 24
+  },
+  {
+    "id": 190,
+    "name": "الربع 190",
+    "verse_count": 28,
+    "page_count": 4,
+    "group_id": 48,
+    "part_id": 24
+  },
+  {
+    "id": 191,
+    "name": "الربع 191",
+    "verse_count": 16,
+    "page_count": 3,
+    "group_id": 48,
+    "part_id": 24
+  },
+  {
+    "id": 192,
+    "name": "الربع 192",
+    "verse_count": 22,
+    "page_count": 3,
+    "group_id": 48,
+    "part_id": 24
+  },
+  {
+    "id": 193,
+    "name": "الربع 193",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 49,
+    "part_id": 25
+  },
+  {
+    "id": 194,
+    "name": "الربع 194",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 49,
+    "part_id": 25
+  },
+  {
+    "id": 195,
+    "name": "الربع 195",
+    "verse_count": 24,
+    "page_count": 3,
+    "group_id": 49,
+    "part_id": 25
+  },
+  {
+    "id": 196,
+    "name": "الربع 196",
+    "verse_count": 26,
+    "page_count": 4,
+    "group_id": 49,
+    "part_id": 25
+  },
+  {
+    "id": 197,
+    "name": "الربع 197",
+    "verse_count": 33,
+    "page_count": 3,
+    "group_id": 50,
+    "part_id": 25
+  },
+  {
+    "id": 198,
+    "name": "الربع 198",
+    "verse_count": 49,
+    "page_count": 4,
+    "group_id": 50,
+    "part_id": 25
+  },
+  {
+    "id": 199,
+    "name": "الربع 199",
+    "verse_count": 54,
+    "page_count": 4,
+    "group_id": 50,
+    "part_id": 25
+  },
+  {
+    "id": 200,
+    "name": "الربع 200",
+    "verse_count": 26,
+    "page_count": 4,
+    "group_id": 50,
+    "part_id": 25
+  },
+  {
+    "id": 201,
+    "name": "الربع 201",
+    "verse_count": 20,
+    "page_count": 3,
+    "group_id": 51,
+    "part_id": 26
+  },
+  {
+    "id": 202,
+    "name": "الربع 202",
+    "verse_count": 24,
+    "page_count": 3,
+    "group_id": 51,
+    "part_id": 26
+  },
+  {
+    "id": 203,
+    "name": "الربع 203",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 51,
+    "part_id": 26
+  },
+  {
+    "id": 204,
+    "name": "الربع 204",
+    "verse_count": 23,
+    "page_count": 4,
+    "group_id": 51,
+    "part_id": 26
+  },
+  {
+    "id": 205,
+    "name": "الربع 205",
+    "verse_count": 12,
+    "page_count": 3,
+    "group_id": 52,
+    "part_id": 26
+  },
+  {
+    "id": 206,
+    "name": "الربع 206",
+    "verse_count": 13,
+    "page_count": 3,
+    "group_id": 52,
+    "part_id": 26
+  },
+  {
+    "id": 207,
+    "name": "الربع 207",
+    "verse_count": 31,
+    "page_count": 3,
+    "group_id": 52,
+    "part_id": 26
+  },
+  {
+    "id": 208,
+    "name": "الربع 208",
+    "verse_count": 49,
+    "page_count": 3,
+    "group_id": 52,
+    "part_id": 26
+  },
+  {
+    "id": 209,
+    "name": "الربع 209",
+    "verse_count": 53,
+    "page_count": 3,
+    "group_id": 53,
+    "part_id": 27
+  },
+  {
+    "id": 210,
+    "name": "الربع 210",
+    "verse_count": 51,
+    "page_count": 3,
+    "group_id": 53,
+    "part_id": 27
+  },
+  {
+    "id": 211,
+    "name": "الربع 211",
+    "verse_count": 45,
+    "page_count": 4,
+    "group_id": 53,
+    "part_id": 27
+  },
+  {
+    "id": 212,
+    "name": "الربع 212",
+    "verse_count": 47,
+    "page_count": 3,
+    "group_id": 53,
+    "part_id": 27
+  },
+  {
+    "id": 213,
+    "name": "الربع 213",
+    "verse_count": 78,
+    "page_count": 4,
+    "group_id": 54,
+    "part_id": 27
+  },
+  {
+    "id": 214,
+    "name": "الربع 214",
+    "verse_count": 74,
+    "page_count": 3,
+    "group_id": 54,
+    "part_id": 27
+  },
+  {
+    "id": 215,
+    "name": "الربع 215",
+    "verse_count": 37,
+    "page_count": 4,
+    "group_id": 54,
+    "part_id": 27
+  },
+  {
+    "id": 216,
+    "name": "الربع 216",
+    "verse_count": 14,
+    "page_count": 3,
+    "group_id": 54,
+    "part_id": 27
+  },
+  {
+    "id": 217,
+    "name": "الربع 217",
+    "verse_count": 13,
+    "page_count": 3,
+    "group_id": 55,
+    "part_id": 28
+  },
+  {
+    "id": 218,
+    "name": "الربع 218",
+    "verse_count": 19,
+    "page_count": 4,
+    "group_id": 55,
+    "part_id": 28
+  },
+  {
+    "id": 219,
+    "name": "الربع 219",
+    "verse_count": 20,
+    "page_count": 4,
+    "group_id": 55,
+    "part_id": 28
+  },
+  {
+    "id": 220,
+    "name": "الربع 220",
+    "verse_count": 21,
+    "page_count": 3,
+    "group_id": 55,
+    "part_id": 28
+  },
+  {
+    "id": 221,
+    "name": "الربع 221",
+    "verse_count": 14,
+    "page_count": 2,
+    "group_id": 56,
+    "part_id": 28
+  },
+  {
+    "id": 222,
+    "name": "الربع 222",
+    "verse_count": 26,
+    "page_count": 4,
+    "group_id": 56,
+    "part_id": 28
+  },
+  {
+    "id": 223,
+    "name": "الربع 223",
+    "verse_count": 12,
+    "page_count": 2,
+    "group_id": 56,
+    "part_id": 28
+  },
+  {
+    "id": 224,
+    "name": "الربع 224",
+    "verse_count": 12,
+    "page_count": 2,
+    "group_id": 56,
+    "part_id": 28
+  },
+  {
+    "id": 225,
+    "name": "الربع 225",
+    "verse_count": 30,
+    "page_count": 3,
+    "group_id": 57,
+    "part_id": 29
+  },
+  {
+    "id": 226,
+    "name": "الربع 226",
+    "verse_count": 52,
+    "page_count": 3,
+    "group_id": 57,
+    "part_id": 29
+  },
+  {
+    "id": 227,
+    "name": "الربع 227",
+    "verse_count": 70,
+    "page_count": 4,
+    "group_id": 57,
+    "part_id": 29
+  },
+  {
+    "id": 228,
+    "name": "الربع 228",
+    "verse_count": 54,
+    "page_count": 3,
+    "group_id": 57,
+    "part_id": 29
+  },
+  {
+    "id": 229,
+    "name": "الربع 229",
+    "verse_count": 47,
+    "page_count": 3,
+    "group_id": 58,
+    "part_id": 29
+  },
+  {
+    "id": 230,
+    "name": "الربع 230",
+    "verse_count": 57,
+    "page_count": 3,
+    "group_id": 58,
+    "part_id": 29
+  },
+  {
+    "id": 231,
+    "name": "الربع 231",
+    "verse_count": 58,
+    "page_count": 3,
+    "group_id": 58,
+    "part_id": 29
+  },
+  {
+    "id": 232,
+    "name": "الربع 232",
+    "verse_count": 63,
+    "page_count": 3,
+    "group_id": 58,
+    "part_id": 29
+  },
+  {
+    "id": 233,
+    "name": "الربع 233",
+    "verse_count": 86,
+    "page_count": 3,
+    "group_id": 59,
+    "part_id": 30
+  },
+  {
+    "id": 234,
+    "name": "الربع 234",
+    "verse_count": 71,
+    "page_count": 2,
+    "group_id": 59,
+    "part_id": 30
+  },
+  {
+    "id": 235,
+    "name": "الربع 235",
+    "verse_count": 55,
+    "page_count": 3,
+    "group_id": 59,
+    "part_id": 30
+  },
+  {
+    "id": 236,
+    "name": "الربع 236",
+    "verse_count": 64,
+    "page_count": 3,
+    "group_id": 59,
+    "part_id": 30
+  },
+  {
+    "id": 237,
+    "name": "الربع 237",
+    "verse_count": 75,
+    "page_count": 4,
+    "group_id": 60,
+    "part_id": 30
+  },
+  {
+    "id": 238,
+    "name": "الربع 238",
+    "verse_count": 67,
+    "page_count": 3,
+    "group_id": 60,
+    "part_id": 30
+  },
+  {
+    "id": 239,
+    "name": "الربع 239",
+    "verse_count": 64,
+    "page_count": 4,
+    "group_id": 60,
+    "part_id": 30
+  },
+  {
+    "id": 240,
+    "name": "الربع 240",
+    "verse_count": 82,
+    "page_count": 6,
+    "group_id": 60,
+    "part_id": 30
+  }
+]

@@ -6,17 +6,17 @@ import archiver from 'archiver';
 import * as tar from 'tar';
 
 /**
- * 工具：创建压缩文件
- * 注册工具到MCP服务器
- * @param server MCP服务器实例
+ * Tool: Create Archive
+ * Registers the tool with the MCP server
+ * @param server MCP server instance
  */
 const registerTool = (server: McpServer) => {
   server.registerTool(
     'create-archive',
     {
-      title: '创建压缩文件',
+      title: 'Create Archive',
       description:
-        '将文件或文件夹压缩为ZIP或TAR格式。参数：files - 要压缩的文件/文件夹路径数组 (必需)；outputPath - 输出压缩文件路径 (必需)；format - 压缩格式 (可选，默认zip)；compressionLevel - 压缩级别 (可选，默认6)',
+        'Compresses files or folders into ZIP or TAR format. Parameters: files - Array of file/folder paths to compress (required); outputPath - Output archive file path (required); format - Archive format (optional, default is zip); compressionLevel - Compression level (optional, default is 6)',
       inputSchema: {
         files: z.array(z.string()),
         outputPath: z.string(),
@@ -26,14 +26,14 @@ const registerTool = (server: McpServer) => {
     },
     async ({ files, outputPath, format = 'zip', compressionLevel = 6 }) => {
       try {
-        // 检查输入文件是否存在
+        // Check if input files exist
         for (const file of files) {
           if (!(await fs.pathExists(file))) {
             return {
               content: [
                 {
                   type: 'text',
-                  text: `错误：文件或文件夹 ${file} 不存在`
+                  text: `Error: File or folder ${file} does not exist`
                 }
               ],
               isError: true
@@ -41,13 +41,13 @@ const registerTool = (server: McpServer) => {
           }
         }
 
-        // 确保输出目录存在
+        // Ensure the output directory exists
         const outputDir = path.dirname(outputPath);
         await fs.ensureDir(outputDir);
 
         let totalOriginalSize = 0;
 
-        // 计算原始文件总大小
+        // Calculate the total original size of the files
         const calculateSize = async (filePath: string): Promise<number> => {
           const stats = await fs.stat(filePath);
           if (stats.isDirectory()) {
@@ -67,7 +67,7 @@ const registerTool = (server: McpServer) => {
           totalOriginalSize += await calculateSize(file);
         }
 
-        // 根据格式选择压缩方式
+        // Choose compression method based on format
         if (format === 'zip') {
           await createZipArchive(files, outputPath, compressionLevel);
         } else if (format === 'tar') {
@@ -76,7 +76,7 @@ const registerTool = (server: McpServer) => {
           await createTarArchive(files, outputPath, true);
         }
 
-        // 获取压缩后文件大小
+        // Get the size of the compressed file
         const compressedStats = await fs.stat(outputPath);
         const compressedSize = compressedStats.size;
         const compressionRatio = Math.round(
@@ -87,7 +87,7 @@ const registerTool = (server: McpServer) => {
           content: [
             {
               type: 'text',
-              text: `压缩完成！\n压缩文件: ${outputPath}\n格式: ${format.toUpperCase()}\n原始大小: ${Math.round(totalOriginalSize / 1024)}KB\n压缩后大小: ${Math.round(compressedSize / 1024)}KB\n压缩率: ${compressionRatio}%\n包含文件: ${files.length} 个`
+              text: `Compression complete!\nArchive file: ${outputPath}\nFormat: ${format.toUpperCase()}\nOriginal size: ${Math.round(totalOriginalSize / 1024)}KB\nCompressed size: ${Math.round(compressedSize / 1024)}KB\nCompression ratio: ${compressionRatio}%\nFiles included: ${files.length}`
             }
           ]
         };
@@ -96,7 +96,7 @@ const registerTool = (server: McpServer) => {
           content: [
             {
               type: 'text',
-              text: `创建压缩文件时发生错误: ${error instanceof Error ? error.message : String(error)}`
+              text: `Error creating archive: ${error instanceof Error ? error.message : String(error)}`
             }
           ],
           isError: true
@@ -107,7 +107,7 @@ const registerTool = (server: McpServer) => {
 };
 
 /**
- * 创建ZIP压缩文件
+ * Creates a ZIP archive.
  */
 async function createZipArchive(
   files: string[],
@@ -130,7 +130,7 @@ async function createZipArchive(
 
     archive.pipe(output);
 
-    // 添加文件到压缩包
+    // Add files to the archive
     files.forEach((file) => {
       const stats = fs.statSync(file);
       const fileName = path.basename(file);
@@ -147,7 +147,7 @@ async function createZipArchive(
 }
 
 /**
- * 创建TAR压缩文件
+ * Creates a TAR archive.
  */
 async function createTarArchive(
   files: string[],
@@ -159,13 +159,13 @@ async function createTarArchive(
     gzip: gzip
   };
 
-  // 创建文件列表，保持相对路径结构
+  // Create a file list, maintaining relative path structure
   const fileList: string[] = [];
 
   for (const file of files) {
     const stats = await fs.stat(file);
     if (stats.isDirectory()) {
-      // 递归添加目录中的所有文件
+      // Recursively add all files in the directory
       const addDirectory = async (dirPath: string) => {
         const items = await fs.readdir(dirPath);
         for (const item of items) {

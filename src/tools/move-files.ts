@@ -4,17 +4,17 @@ import fs from 'fs-extra';
 import * as path from 'path';
 
 /**
- * 工具：移动文件或文件夹
- * 注册工具到MCP服务器
- * @param server MCP服务器实例
+ * Tool: Move Files
+ * Registers the tool with the MCP server
+ * @param server MCP server instance
  */
 const registerTool = (server: McpServer) => {
   server.registerTool(
     'move-files',
     {
-      title: '移动文件',
+      title: 'Move Files',
       description:
-        '移动文件或文件夹到目标位置。参数：sourcePath - 源文件/文件夹路径 (必需)；targetPath - 目标路径 (必需)；overwrite - 是否覆盖已存在文件 (可选，默认false)',
+        'Moves a file or folder to a target location. Parameters: sourcePath - Source file/folder path (required); targetPath - Target path (required); overwrite - Whether to overwrite existing files (optional, default is false)',
       inputSchema: {
         sourcePath: z.string(),
         targetPath: z.string(),
@@ -23,20 +23,20 @@ const registerTool = (server: McpServer) => {
     },
     async ({ sourcePath, targetPath, overwrite = false }) => {
       try {
-        // 检查源文件是否存在
+        // Check if the source file exists
         if (!(await fs.pathExists(sourcePath))) {
           return {
             content: [
               {
                 type: 'text',
-                text: `错误：源文件或文件夹 ${sourcePath} 不存在`
+                text: `Error: Source file or folder ${sourcePath} does not exist`
               }
             ],
             isError: true
           };
         }
 
-        // 检查源路径和目标路径是否相同
+        // Check if the source and target paths are the same
         const absoluteSource = path.resolve(sourcePath);
         const absoluteTarget = path.resolve(targetPath);
         if (absoluteSource === absoluteTarget) {
@@ -44,69 +44,69 @@ const registerTool = (server: McpServer) => {
             content: [
               {
                 type: 'text',
-                text: '错误：源路径和目标路径不能相同'
+                text: 'Error: Source and target paths cannot be the same'
               }
             ],
             isError: true
           };
         }
 
-        // 检查目标是否已存在
+        // Check if the target path exists
         const targetExists = await fs.pathExists(targetPath);
         if (targetExists && !overwrite) {
           return {
             content: [
               {
                 type: 'text',
-                text: `错误：目标路径 ${targetPath} 已存在，请设置 overwrite=true 来覆盖`
+                text: `Error: Target path ${targetPath} already exists. Set overwrite=true to overwrite.`
               }
             ],
             isError: true
           };
         }
 
-        // 获取源文件信息（在移动前）
+        // Get source file information (before moving)
         const sourceStats = await fs.stat(sourcePath);
         const isDirectory = sourceStats.isDirectory();
         const sourceSize = isDirectory
           ? await calculateDirectorySize(sourcePath)
           : sourceStats.size;
 
-        // 计算文件数量（如果是目录）
+        // Count the number of files (if it's a directory)
         let fileCount = 1;
         if (isDirectory) {
           fileCount = await countFilesInDirectory(sourcePath);
         }
 
-        // 确保目标目录存在
+        // Ensure the target directory exists
         const targetDir = isDirectory
           ? path.dirname(targetPath)
           : path.dirname(targetPath);
         await fs.ensureDir(targetDir);
 
-        // 执行移动操作
+        // Perform the move operation
         await fs.move(sourcePath, targetPath, { overwrite: overwrite });
 
-        // 验证移动是否成功
+        // Verify that the move was successful
         if (!(await fs.pathExists(targetPath))) {
           return {
             content: [
               {
                 type: 'text',
-                text: '错误：移动操作完成但目标文件未找到'
+                text: 'Error: Move operation completed but target file not found'
               }
             ],
             isError: true
           };
         }
 
-        // 验证源文件已被移除
+        // Verify that the source file has been removed
         if (await fs.pathExists(sourcePath)) {
           return {
             content: [
               {
                 type: 'text',
-                text: '警告：移动操作完成但源文件仍然存在'
+                text: 'Warning: Move operation completed but source file still exists'
               }
             ],
             isError: true
@@ -117,7 +117,7 @@ const registerTool = (server: McpServer) => {
           content: [
             {
               type: 'text',
-              text: `移动完成！\n源路径: ${sourcePath}\n目标路径: ${targetPath}\n类型: ${isDirectory ? '文件夹' : '文件'}\n大小: ${Math.round(sourceSize / 1024)}KB\n${isDirectory ? `包含文件: ${fileCount} 个` : ''}\n操作: ${targetExists && overwrite ? '覆盖移动' : '新建移动'}`
+              text: `Move complete!\nSource path: ${sourcePath}\nTarget path: ${targetPath}\nType: ${isDirectory ? 'Folder' : 'File'}\nSize: ${Math.round(sourceSize / 1024)}KB\n${isDirectory ? `Files included: ${fileCount}` : ''}\nOperation: ${targetExists && overwrite ? 'Overwrite' : 'New'}`
             }
           ]
         };
@@ -126,7 +126,7 @@ const registerTool = (server: McpServer) => {
           content: [
             {
               type: 'text',
-              text: `移动文件时发生错误: ${error instanceof Error ? error.message : String(error)}`
+              text: `Error moving file: ${error instanceof Error ? error.message : String(error)}`
             }
           ],
           isError: true
@@ -137,7 +137,7 @@ const registerTool = (server: McpServer) => {
 };
 
 /**
- * 计算目录大小
+ * Calculates the size of a directory.
  */
 async function calculateDirectorySize(dirPath: string): Promise<number> {
   let totalSize = 0;
@@ -154,7 +154,7 @@ async function calculateDirectorySize(dirPath: string): Promise<number> {
         totalSize += stats.size;
       }
     } catch {
-      // 忽略无法访问的文件
+      // Ignore files that cannot be accessed
     }
   };
 
@@ -163,7 +163,7 @@ async function calculateDirectorySize(dirPath: string): Promise<number> {
 }
 
 /**
- * 统计目录中的文件数量
+ * Counts the number of files in a directory.
  */
 async function countFilesInDirectory(dirPath: string): Promise<number> {
   let fileCount = 0;
@@ -180,7 +180,7 @@ async function countFilesInDirectory(dirPath: string): Promise<number> {
         fileCount++;
       }
     } catch {
-      // 忽略无法访问的文件
+      // Ignore files that cannot be accessed
     }
   };
 

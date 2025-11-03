@@ -1,0 +1,5 @@
+[ProxyList]
+# add proxy here ...
+# meanwile
+# defaults set to "tor"
+socks4 127.0.0.1 9050

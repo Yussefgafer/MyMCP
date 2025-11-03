@@ -6,17 +6,17 @@ import extractZip from 'extract-zip';
 import * as tar from 'tar';
 
 /**
- * 工具：解压文件
- * 注册工具到MCP服务器
- * @param server MCP服务器实例
+ * Tool: Extract Archive
+ * Registers the tool with the MCP server
+ * @param server MCP server instance
  */
 const registerTool = (server: McpServer) => {
   server.registerTool(
     'extract-archive',
     {
-      title: '解压文件',
+      title: 'Extract Archive',
       description:
-        '解压ZIP、TAR或TAR.GZ文件到指定目录。参数：archivePath - 压缩文件路径 (必需)；extractTo - 解压目标目录 (必需)；overwrite - 是否覆盖已存在文件 (可选，默认false)',
+        'Extracts a ZIP, TAR, or TAR.GZ file to a specified directory. Parameters: archivePath - Path to the archive file (required); extractTo - Target directory for extraction (required); overwrite - Whether to overwrite existing files (optional, default is false)',
       inputSchema: {
         archivePath: z.string(),
         extractTo: z.string(),
@@ -25,24 +25,24 @@ const registerTool = (server: McpServer) => {
     },
     async ({ archivePath, extractTo, overwrite = false }) => {
       try {
-        // 检查压缩文件是否存在
+        // Check if the archive file exists
         if (!(await fs.pathExists(archivePath))) {
           return {
             content: [
               {
                 type: 'text',
-                text: `错误：压缩文件 ${archivePath} 不存在`
+                text: `Error: Archive file ${archivePath} does not exist`
               }
             ],
             isError: true
           };
         }
 
-        // 检查文件格式
+        // Check the file format
         const fileExtension = path.extname(archivePath).toLowerCase();
         const supportedFormats = ['.zip', '.tar', '.gz', '.tgz'];
 
-        // 特殊处理 .tar.gz
+        // Special handling for .tar.gz
         const fileName = path.basename(archivePath).toLowerCase();
         const isTarGz =
           fileName.endsWith('.tar.gz') || fileName.endsWith('.tgz');
@@ -57,17 +57,17 @@ const registerTool = (server: McpServer) => {
             content: [
               {
                 type: 'text',
-                text: `错误：不支持的压缩格式。支持的格式：ZIP, TAR, TAR.GZ, TGZ`
+                text: `Error: Unsupported archive format. Supported formats: ZIP, TAR, TAR.GZ, TGZ`
               }
             ],
             isError: true
           };
         }
 
-        // 确保解压目录存在
+        // Ensure the extraction directory exists
         await fs.ensureDir(extractTo);
 
-        // 检查目标目录是否为空（如果不覆盖）
+        // Check if the target directory is empty (if not overwriting)
         if (!overwrite) {
           const existingFiles = await fs.readdir(extractTo);
           if (existingFiles.length > 0) {
@@ -75,7 +75,7 @@ const registerTool = (server: McpServer) => {
               content: [
                 {
                   type: 'text',
-                  text: `错误：目标目录 ${extractTo} 不为空，请设置 overwrite=true 来覆盖现有文件`
+                  text: `Error: Target directory ${extractTo} is not empty. Set overwrite=true to overwrite existing files.`
                 }
               ],
               isError: true
@@ -86,7 +86,7 @@ const registerTool = (server: McpServer) => {
         let extractedFiles: string[] = [];
         let format = '';
 
-        // 根据文件格式选择解压方式
+        // Choose extraction method based on file format
         if (fileExtension === '.zip') {
           format = 'ZIP';
           extractedFiles = await extractZipFile(archivePath, extractTo);
@@ -102,7 +102,7 @@ const registerTool = (server: McpServer) => {
           extractedFiles = await extractTarFile(archivePath, extractTo, false);
         }
 
-        // 计算解压后的文件大小
+        // Calculate the total size of the extracted files
         let totalSize = 0;
         for (const file of extractedFiles) {
           try {
@@ -111,7 +111,7 @@ const registerTool = (server: McpServer) => {
               totalSize += stats.size;
             }
           } catch {
-            // 忽略统计错误
+            // Ignore stat errors
           }
         }
 
@@ -119,7 +119,7 @@ const registerTool = (server: McpServer) => {
           content: [
             {
               type: 'text',
-              text: `解压完成！\n压缩文件: ${archivePath}\n格式: ${format}\n解压到: ${extractTo}\n解压文件数量: ${extractedFiles.length} 个\n总大小: ${Math.round(totalSize / 1024)}KB`
+              text: `Extraction complete!\nArchive file: ${archivePath}\nFormat: ${format}\nExtracted to: ${extractTo}\nNumber of files extracted: ${extractedFiles.length}\nTotal size: ${Math.round(totalSize / 1024)}KB`
             }
           ]
         };
@@ -128,7 +128,7 @@ const registerTool = (server: McpServer) => {
           content: [
             {
               type: 'text',
-              text: `解压文件时发生错误: ${error instanceof Error ? error.message : String(error)}`
+              text: `Error extracting archive: ${error instanceof Error ? error.message : String(error)}`
             }
           ],
           isError: true
@@ -139,7 +139,7 @@ const registerTool = (server: McpServer) => {
 };
 
 /**
- * 解压ZIP文件
+ * Extracts a ZIP file.
  */
 async function extractZipFile(
   archivePath: string,
@@ -147,7 +147,7 @@ async function extractZipFile(
 ): Promise<string[]> {
   await extractZip(archivePath, { dir: path.resolve(extractTo) });
 
-  // 递归获取所有解压的文件
+  // Recursively get all extracted files
   const getAllFiles = async (dirPath: string): Promise<string[]> => {
     const files: string[] = [];
     const items = await fs.readdir(dirPath);
@@ -170,7 +170,7 @@ async function extractZipFile(
 }
 
 /**
- * 解压TAR文件
+ * Extracts a TAR file.
  */
 async function extractTarFile(
   archivePath: string,

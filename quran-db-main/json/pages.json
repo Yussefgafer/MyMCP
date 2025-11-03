@@ -1,0 +1,5438 @@
+[
+  {
+    "id": 1,
+    "name": "الصفحة 1",
+    "verse_count": 7,
+    "chapter_id": 1,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 1
+  },
+  {
+    "id": 2,
+    "name": "الصفحة 2",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 1
+  },
+  {
+    "id": 3,
+    "name": "الصفحة 3",
+    "verse_count": 11,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 1
+  },
+  {
+    "id": 4,
+    "name": "الصفحة 4",
+    "verse_count": 8,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 1
+  },
+  {
+    "id": 5,
+    "name": "الصفحة 5",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 1
+  },
+  {
+    "id": 6,
+    "name": "الصفحة 6",
+    "verse_count": 8,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 2
+  },
+  {
+    "id": 7,
+    "name": "الصفحة 7",
+    "verse_count": 11,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 2
+  },
+  {
+    "id": 8,
+    "name": "الصفحة 8",
+    "verse_count": 9,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 3
+  },
+  {
+    "id": 9,
+    "name": "الصفحة 9",
+    "verse_count": 4,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 3
+  },
+  {
+    "id": 10,
+    "name": "الصفحة 10",
+    "verse_count": 8,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 4
+  },
+  {
+    "id": 11,
+    "name": "الصفحة 11",
+    "verse_count": 7,
+    "chapter_id": 2,
+    "group_id": 1,
+    "part_id": 1,
+    "quarter_id": 4
+  },
+  {
+    "id": 12,
+    "name": "الصفحة 12",
+    "verse_count": 7,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 5
+  },
+  {
+    "id": 13,
+    "name": "الصفحة 13",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 5
+  },
+  {
+    "id": 14,
+    "name": "الصفحة 14",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 5
+  },
+  {
+    "id": 15,
+    "name": "الصفحة 15",
+    "verse_count": 8,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 6
+  },
+  {
+    "id": 16,
+    "name": "الصفحة 16",
+    "verse_count": 4,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 6
+  },
+  {
+    "id": 17,
+    "name": "الصفحة 17",
+    "verse_count": 7,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 7
+  },
+  {
+    "id": 18,
+    "name": "الصفحة 18",
+    "verse_count": 7,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 7
+  },
+  {
+    "id": 19,
+    "name": "الصفحة 19",
+    "verse_count": 7,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 7
+  },
+  {
+    "id": 20,
+    "name": "الصفحة 20",
+    "verse_count": 8,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 8
+  },
+  {
+    "id": 21,
+    "name": "الصفحة 21",
+    "verse_count": 7,
+    "chapter_id": 2,
+    "group_id": 2,
+    "part_id": 1,
+    "quarter_id": 8
+  },
+  {
+    "id": 22,
+    "name": "الصفحة 22",
+    "verse_count": 4,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 9
+  },
+  {
+    "id": 23,
+    "name": "الصفحة 23",
+    "verse_count": 8,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 9
+  },
+  {
+    "id": 24,
+    "name": "الصفحة 24",
+    "verse_count": 10,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 9
+  },
+  {
+    "id": 25,
+    "name": "الصفحة 25",
+    "verse_count": 6,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 10
+  },
+  {
+    "id": 26,
+    "name": "الصفحة 26",
+    "verse_count": 7,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 10
+  },
+  {
+    "id": 27,
+    "name": "الصفحة 27",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 11
+  },
+  {
+    "id": 28,
+    "name": "الصفحة 28",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 11
+  },
+  {
+    "id": 29,
+    "name": "الصفحة 29",
+    "verse_count": 4,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 11
+  },
+  {
+    "id": 30,
+    "name": "الصفحة 30",
+    "verse_count": 6,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 12
+  },
+  {
+    "id": 31,
+    "name": "الصفحة 31",
+    "verse_count": 6,
+    "chapter_id": 2,
+    "group_id": 3,
+    "part_id": 2,
+    "quarter_id": 12
+  },
+  {
+    "id": 32,
+    "name": "الصفحة 32",
+    "verse_count": 8,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 13
+  },
+  {
+    "id": 33,
+    "name": "الصفحة 33",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 13
+  },
+  {
+    "id": 34,
+    "name": "الصفحة 34",
+    "verse_count": 4,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 13
+  },
+  {
+    "id": 35,
+    "name": "الصفحة 35",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 14
+  },
+  {
+    "id": 36,
+    "name": "الصفحة 36",
+    "verse_count": 6,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 14
+  },
+  {
+    "id": 37,
+    "name": "الصفحة 37",
+    "verse_count": 3,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 14
+  },
+  {
+    "id": 38,
+    "name": "الصفحة 38",
+    "verse_count": 4,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 15
+  },
+  {
+    "id": 39,
+    "name": "الصفحة 39",
+    "verse_count": 8,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 15
+  },
+  {
+    "id": 40,
+    "name": "الصفحة 40",
+    "verse_count": 3,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 16
+  },
+  {
+    "id": 41,
+    "name": "الصفحة 41",
+    "verse_count": 4,
+    "chapter_id": 2,
+    "group_id": 4,
+    "part_id": 2,
+    "quarter_id": 16
+  },
+  {
+    "id": 42,
+    "name": "الصفحة 42",
+    "verse_count": 4,
+    "chapter_id": 2,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 17
+  },
+  {
+    "id": 43,
+    "name": "الصفحة 43",
+    "verse_count": 3,
+    "chapter_id": 2,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 17
+  },
+  {
+    "id": 44,
+    "name": "الصفحة 44",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 17
+  },
+  {
+    "id": 45,
+    "name": "الصفحة 45",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 18
+  },
+  {
+    "id": 46,
+    "name": "الصفحة 46",
+    "verse_count": 5,
+    "chapter_id": 2,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 18
+  },
+  {
+    "id": 47,
+    "name": "الصفحة 47",
+    "verse_count": 7,
+    "chapter_id": 2,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 19
+  },
+  {
+    "id": 48,
+    "name": "الصفحة 48",
+    "verse_count": 1,
+    "chapter_id": 2,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 19
+  },
+  {
+    "id": 49,
+    "name": "الصفحة 49",
+    "verse_count": 4,
+    "chapter_id": 2,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 20
+  },
+  {
+    "id": 50,
+    "name": "الصفحة 50",
+    "verse_count": 9,
+    "chapter_id": 3,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 20
+  },
+  {
+    "id": 51,
+    "name": "الصفحة 51",
+    "verse_count": 6,
+    "chapter_id": 3,
+    "group_id": 5,
+    "part_id": 3,
+    "quarter_id": 20
+  },
+  {
+    "id": 52,
+    "name": "الصفحة 52",
+    "verse_count": 7,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 21
+  },
+  {
+    "id": 53,
+    "name": "الصفحة 53",
+    "verse_count": 7,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 21
+  },
+  {
+    "id": 54,
+    "name": "الصفحة 54",
+    "verse_count": 8,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 21
+  },
+  {
+    "id": 55,
+    "name": "الصفحة 55",
+    "verse_count": 8,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 22
+  },
+  {
+    "id": 56,
+    "name": "الصفحة 56",
+    "verse_count": 7,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 22
+  },
+  {
+    "id": 57,
+    "name": "الصفحة 57",
+    "verse_count": 9,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 23
+  },
+  {
+    "id": 58,
+    "name": "الصفحة 58",
+    "verse_count": 9,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 23
+  },
+  {
+    "id": 59,
+    "name": "الصفحة 59",
+    "verse_count": 7,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 23
+  },
+  {
+    "id": 60,
+    "name": "الصفحة 60",
+    "verse_count": 6,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 24
+  },
+  {
+    "id": 61,
+    "name": "الصفحة 61",
+    "verse_count": 8,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 24
+  },
+  {
+    "id": 62,
+    "name": "الصفحة 62",
+    "verse_count": 9,
+    "chapter_id": 3,
+    "group_id": 6,
+    "part_id": 3,
+    "quarter_id": 24
+  },
+  {
+    "id": 63,
+    "name": "الصفحة 63",
+    "verse_count": 8,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 25
+  },
+  {
+    "id": 64,
+    "name": "الصفحة 64",
+    "verse_count": 7,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 25
+  },
+  {
+    "id": 65,
+    "name": "الصفحة 65",
+    "verse_count": 6,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 26
+  },
+  {
+    "id": 66,
+    "name": "الصفحة 66",
+    "verse_count": 11,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 26
+  },
+  {
+    "id": 67,
+    "name": "الصفحة 67",
+    "verse_count": 8,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 27
+  },
+  {
+    "id": 68,
+    "name": "الصفحة 68",
+    "verse_count": 8,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 27
+  },
+  {
+    "id": 69,
+    "name": "الصفحة 69",
+    "verse_count": 5,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 27
+  },
+  {
+    "id": 70,
+    "name": "الصفحة 70",
+    "verse_count": 4,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 28
+  },
+  {
+    "id": 71,
+    "name": "الصفحة 71",
+    "verse_count": 8,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 28
+  },
+  {
+    "id": 72,
+    "name": "الصفحة 72",
+    "verse_count": 8,
+    "chapter_id": 3,
+    "group_id": 7,
+    "part_id": 4,
+    "quarter_id": 28
+  },
+  {
+    "id": 73,
+    "name": "الصفحة 73",
+    "verse_count": 7,
+    "chapter_id": 3,
+    "group_id": 8,
+    "part_id": 4,
+    "quarter_id": 29
+  },
+  {
+    "id": 74,
+    "name": "الصفحة 74",
+    "verse_count": 6,
+    "chapter_id": 3,
+    "group_id": 8,
+    "part_id": 4,
+    "quarter_id": 29
+  },
+  {
+    "id": 75,
+    "name": "الصفحة 75",
+    "verse_count": 8,
+    "chapter_id": 3,
+    "group_id": 8,
+    "part_id": 4,
+    "quarter_id": 30
+  },
+  {
+    "id": 76,
+    "name": "الصفحة 76",
+    "verse_count": 6,
+    "chapter_id": 3,
+    "group_id": 8,
+    "part_id": 4,
+    "quarter_id": 30
+  },
+  {
+    "id": 77,
+    "name": "الصفحة 77",
+    "verse_count": 6,
+    "chapter_id": 4,
+    "group_id": 8,
+    "part_id": 4,
+    "quarter_id": 31
+  },
+  {
+    "id": 78,
+    "name": "الصفحة 78",
+    "verse_count": 5,
+    "chapter_id": 4,
+    "group_id": 8,
+    "part_id": 4,
+    "quarter_id": 31
+  },
+  {
+    "id": 79,
+    "name": "الصفحة 79",
+    "verse_count": 3,
+    "chapter_id": 4,
+    "group_id": 8,
+    "part_id": 4,
+    "quarter_id": 32
+  },
+  {
+    "id": 80,
+    "name": "الصفحة 80",
+    "verse_count": 5,
+    "chapter_id": 4,
+    "group_id": 8,
+    "part_id": 4,
+    "quarter_id": 32
+  },
+  {
+    "id": 81,
+    "name": "الصفحة 81",
+    "verse_count": 4,
+    "chapter_id": 4,
+    "group_id": 8,
+    "part_id": 4,
+    "quarter_id": 32
+  },
+  {
+    "id": 82,
+    "name": "الصفحة 82",
+    "verse_count": 3,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 33
+  },
+  {
+    "id": 83,
+    "name": "الصفحة 83",
+    "verse_count": 7,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 33
+  },
+  {
+    "id": 84,
+    "name": "الصفحة 84",
+    "verse_count": 4,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 33
+  },
+  {
+    "id": 85,
+    "name": "الصفحة 85",
+    "verse_count": 7,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 34
+  },
+  {
+    "id": 86,
+    "name": "الصفحة 86",
+    "verse_count": 7,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 34
+  },
+  {
+    "id": 87,
+    "name": "الصفحة 87",
+    "verse_count": 8,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 34
+  },
+  {
+    "id": 88,
+    "name": "الصفحة 88",
+    "verse_count": 6,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 35
+  },
+  {
+    "id": 89,
+    "name": "الصفحة 89",
+    "verse_count": 9,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 35
+  },
+  {
+    "id": 90,
+    "name": "الصفحة 90",
+    "verse_count": 5,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 36
+  },
+  {
+    "id": 91,
+    "name": "الصفحة 91",
+    "verse_count": 7,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 36
+  },
+  {
+    "id": 92,
+    "name": "الصفحة 92",
+    "verse_count": 5,
+    "chapter_id": 4,
+    "group_id": 9,
+    "part_id": 5,
+    "quarter_id": 36
+  },
+  {
+    "id": 93,
+    "name": "الصفحة 93",
+    "verse_count": 3,
+    "chapter_id": 4,
+    "group_id": 10,
+    "part_id": 5,
+    "quarter_id": 37
+  },
+  {
+    "id": 94,
+    "name": "الصفحة 94",
+    "verse_count": 7,
+    "chapter_id": 4,
+    "group_id": 10,
+    "part_id": 5,
+    "quarter_id": 37
+  },
+  {
+    "id": 95,
+    "name": "الصفحة 95",
+    "verse_count": 4,
+    "chapter_id": 4,
+    "group_id": 10,
+    "part_id": 5,
+    "quarter_id": 38
+  },
+  {
+    "id": 96,
+    "name": "الصفحة 96",
+    "verse_count": 8,
+    "chapter_id": 4,
+    "group_id": 10,
+    "part_id": 5,
+    "quarter_id": 38
+  },
+  {
+    "id": 97,
+    "name": "الصفحة 97",
+    "verse_count": 8,
+    "chapter_id": 4,
+    "group_id": 10,
+    "part_id": 5,
+    "quarter_id": 39
+  },
+  {
+    "id": 98,
+    "name": "الصفحة 98",
+    "verse_count": 6,
+    "chapter_id": 4,
+    "group_id": 10,
+    "part_id": 5,
+    "quarter_id": 39
+  },
+  {
+    "id": 99,
+    "name": "الصفحة 99",
+    "verse_count": 7,
+    "chapter_id": 4,
+    "group_id": 10,
+    "part_id": 5,
+    "quarter_id": 39
+  },
+  {
+    "id": 100,
+    "name": "الصفحة 100",
+    "verse_count": 6,
+    "chapter_id": 4,
+    "group_id": 10,
+    "part_id": 5,
+    "quarter_id": 40
+  },
+  {
+    "id": 101,
+    "name": "الصفحة 101",
+    "verse_count": 7,
+    "chapter_id": 4,
+    "group_id": 10,
+    "part_id": 5,
+    "quarter_id": 40
+  },
+  {
+    "id": 102,
+    "name": "الصفحة 102",
+    "verse_count": 7,
+    "chapter_id": 4,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 41
+  },
+  {
+    "id": 103,
+    "name": "الصفحة 103",
+    "verse_count": 8,
+    "chapter_id": 4,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 41
+  },
+  {
+    "id": 104,
+    "name": "الصفحة 104",
+    "verse_count": 8,
+    "chapter_id": 4,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 42
+  },
+  {
+    "id": 105,
+    "name": "الصفحة 105",
+    "verse_count": 5,
+    "chapter_id": 4,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 42
+  },
+  {
+    "id": 106,
+    "name": "الصفحة 106",
+    "verse_count": 3,
+    "chapter_id": 4,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 42
+  },
+  {
+    "id": 107,
+    "name": "الصفحة 107",
+    "verse_count": 3,
+    "chapter_id": 5,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 43
+  },
+  {
+    "id": 108,
+    "name": "الصفحة 108",
+    "verse_count": 4,
+    "chapter_id": 5,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 43
+  },
+  {
+    "id": 109,
+    "name": "الصفحة 109",
+    "verse_count": 4,
+    "chapter_id": 5,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 43
+  },
+  {
+    "id": 110,
+    "name": "الصفحة 110",
+    "verse_count": 4,
+    "chapter_id": 5,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 44
+  },
+  {
+    "id": 111,
+    "name": "الصفحة 111",
+    "verse_count": 6,
+    "chapter_id": 5,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 44
+  },
+  {
+    "id": 112,
+    "name": "الصفحة 112",
+    "verse_count": 8,
+    "chapter_id": 5,
+    "group_id": 11,
+    "part_id": 6,
+    "quarter_id": 44
+  },
+  {
+    "id": 113,
+    "name": "الصفحة 113",
+    "verse_count": 5,
+    "chapter_id": 5,
+    "group_id": 12,
+    "part_id": 6,
+    "quarter_id": 45
+  },
+  {
+    "id": 114,
+    "name": "الصفحة 114",
+    "verse_count": 5,
+    "chapter_id": 5,
+    "group_id": 12,
+    "part_id": 6,
+    "quarter_id": 45
+  },
+  {
+    "id": 115,
+    "name": "الصفحة 115",
+    "verse_count": 4,
+    "chapter_id": 5,
+    "group_id": 12,
+    "part_id": 6,
+    "quarter_id": 46
+  },
+  {
+    "id": 116,
+    "name": "الصفحة 116",
+    "verse_count": 5,
+    "chapter_id": 5,
+    "group_id": 12,
+    "part_id": 6,
+    "quarter_id": 46
+  },
+  {
+    "id": 117,
+    "name": "الصفحة 117",
+    "verse_count": 7,
+    "chapter_id": 5,
+    "group_id": 12,
+    "part_id": 6,
+    "quarter_id": 47
+  },
+  {
+    "id": 118,
+    "name": "الصفحة 118",
+    "verse_count": 7,
+    "chapter_id": 5,
+    "group_id": 12,
+    "part_id": 6,
+    "quarter_id": 47
+  },
+  {
+    "id": 119,
+    "name": "الصفحة 119",
+    "verse_count": 6,
+    "chapter_id": 5,
+    "group_id": 12,
+    "part_id": 6,
+    "quarter_id": 47
+  },
+  {
+    "id": 120,
+    "name": "الصفحة 120",
+    "verse_count": 6,
+    "chapter_id": 5,
+    "group_id": 12,
+    "part_id": 6,
+    "quarter_id": 48
+  },
+  {
+    "id": 121,
+    "name": "الصفحة 121",
+    "verse_count": 6,
+    "chapter_id": 5,
+    "group_id": 12,
+    "part_id": 6,
+    "quarter_id": 48
+  },
+  {
+    "id": 122,
+    "name": "الصفحة 122",
+    "verse_count": 7,
+    "chapter_id": 5,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 49
+  },
+  {
+    "id": 123,
+    "name": "الصفحة 123",
+    "verse_count": 6,
+    "chapter_id": 5,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 49
+  },
+  {
+    "id": 124,
+    "name": "الصفحة 124",
+    "verse_count": 8,
+    "chapter_id": 5,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 49
+  },
+  {
+    "id": 125,
+    "name": "الصفحة 125",
+    "verse_count": 5,
+    "chapter_id": 5,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 50
+  },
+  {
+    "id": 126,
+    "name": "الصفحة 126",
+    "verse_count": 5,
+    "chapter_id": 5,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 51
+  },
+  {
+    "id": 127,
+    "name": "الصفحة 127",
+    "verse_count": 7,
+    "chapter_id": 5,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 51
+  },
+  {
+    "id": 128,
+    "name": "الصفحة 128",
+    "verse_count": 8,
+    "chapter_id": 6,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 51
+  },
+  {
+    "id": 129,
+    "name": "الصفحة 129",
+    "verse_count": 10,
+    "chapter_id": 6,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 51
+  },
+  {
+    "id": 130,
+    "name": "الصفحة 130",
+    "verse_count": 9,
+    "chapter_id": 6,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 52
+  },
+  {
+    "id": 131,
+    "name": "الصفحة 131",
+    "verse_count": 8,
+    "chapter_id": 6,
+    "group_id": 13,
+    "part_id": 7,
+    "quarter_id": 52
+  },
+  {
+    "id": 132,
+    "name": "الصفحة 132",
+    "verse_count": 9,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 53
+  },
+  {
+    "id": 133,
+    "name": "الصفحة 133",
+    "verse_count": 8,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 53
+  },
+  {
+    "id": 134,
+    "name": "الصفحة 134",
+    "verse_count": 7,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 53
+  },
+  {
+    "id": 135,
+    "name": "الصفحة 135",
+    "verse_count": 9,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 54
+  },
+  {
+    "id": 136,
+    "name": "الصفحة 136",
+    "verse_count": 5,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 54
+  },
+  {
+    "id": 137,
+    "name": "الصفحة 137",
+    "verse_count": 8,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 55
+  },
+  {
+    "id": 138,
+    "name": "الصفحة 138",
+    "verse_count": 9,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 55
+  },
+  {
+    "id": 139,
+    "name": "الصفحة 139",
+    "verse_count": 4,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 55
+  },
+  {
+    "id": 140,
+    "name": "الصفحة 140",
+    "verse_count": 7,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 56
+  },
+  {
+    "id": 141,
+    "name": "الصفحة 141",
+    "verse_count": 9,
+    "chapter_id": 6,
+    "group_id": 14,
+    "part_id": 7,
+    "quarter_id": 56
+  },
+  {
+    "id": 142,
+    "name": "الصفحة 142",
+    "verse_count": 8,
+    "chapter_id": 6,
+    "group_id": 15,
+    "part_id": 8,
+    "quarter_id": 57
+  },
+  {
+    "id": 143,
+    "name": "الصفحة 143",
+    "verse_count": 6,
+    "chapter_id": 6,
+    "group_id": 15,
+    "part_id": 8,
+    "quarter_id": 57
+  },
+  {
+    "id": 144,
+    "name": "الصفحة 144",
+    "verse_count": 7,
+    "chapter_id": 6,
+    "group_id": 15,
+    "part_id": 8,
+    "quarter_id": 57
+  },
+  {
+    "id": 145,
+    "name": "الصفحة 145",
+    "verse_count": 6,
+    "chapter_id": 6,
+    "group_id": 15,
+    "part_id": 8,
+    "quarter_id": 58
+  },
+  {
+    "id": 146,
+    "name": "الصفحة 146",
+    "verse_count": 5,
+    "chapter_id": 6,
+    "group_id": 15,
+    "part_id": 8,
+    "quarter_id": 58
+  },
+  {
+    "id": 147,
+    "name": "الصفحة 147",
+    "verse_count": 4,
+    "chapter_id": 6,
+    "group_id": 15,
+    "part_id": 8,
+    "quarter_id": 59
+  },
+  {
+    "id": 148,
+    "name": "الصفحة 148",
+    "verse_count": 5,
+    "chapter_id": 6,
+    "group_id": 15,
+    "part_id": 8,
+    "quarter_id": 59
+  },
+  {
+    "id": 149,
+    "name": "الصفحة 149",
+    "verse_count": 6,
+    "chapter_id": 6,
+    "group_id": 15,
+    "part_id": 8,
+    "quarter_id": 60
+  },
+  {
+    "id": 150,
+    "name": "الصفحة 150",
+    "verse_count": 8,
+    "chapter_id": 6,
+    "group_id": 15,
+    "part_id": 8,
+    "quarter_id": 60
+  },
+  {
+    "id": 151,
+    "name": "الصفحة 151",
+    "verse_count": 11,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 61
+  },
+  {
+    "id": 152,
+    "name": "الصفحة 152",
+    "verse_count": 11,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 61
+  },
+  {
+    "id": 153,
+    "name": "الصفحة 153",
+    "verse_count": 8,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 61
+  },
+  {
+    "id": 154,
+    "name": "الصفحة 154",
+    "verse_count": 7,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 62
+  },
+  {
+    "id": 155,
+    "name": "الصفحة 155",
+    "verse_count": 6,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 62
+  },
+  {
+    "id": 156,
+    "name": "الصفحة 156",
+    "verse_count": 8,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 62
+  },
+  {
+    "id": 157,
+    "name": "الصفحة 157",
+    "verse_count": 6,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 63
+  },
+  {
+    "id": 158,
+    "name": "الصفحة 158",
+    "verse_count": 10,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 63
+  },
+  {
+    "id": 159,
+    "name": "الصفحة 159",
+    "verse_count": 6,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 64
+  },
+  {
+    "id": 160,
+    "name": "الصفحة 160",
+    "verse_count": 8,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 64
+  },
+  {
+    "id": 161,
+    "name": "الصفحة 161",
+    "verse_count": 6,
+    "chapter_id": 7,
+    "group_id": 16,
+    "part_id": 8,
+    "quarter_id": 64
+  },
+  {
+    "id": 162,
+    "name": "الصفحة 162",
+    "verse_count": 8,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 65
+  },
+  {
+    "id": 163,
+    "name": "الصفحة 163",
+    "verse_count": 9,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 65
+  },
+  {
+    "id": 164,
+    "name": "الصفحة 164",
+    "verse_count": 16,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 65
+  },
+  {
+    "id": 165,
+    "name": "الصفحة 165",
+    "verse_count": 10,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 66
+  },
+  {
+    "id": 166,
+    "name": "الصفحة 166",
+    "verse_count": 7,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 66
+  },
+  {
+    "id": 167,
+    "name": "الصفحة 167",
+    "verse_count": 6,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 66
+  },
+  {
+    "id": 168,
+    "name": "الصفحة 168",
+    "verse_count": 6,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 67
+  },
+  {
+    "id": 169,
+    "name": "الصفحة 169",
+    "verse_count": 6,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 67
+  },
+  {
+    "id": 170,
+    "name": "الصفحة 170",
+    "verse_count": 4,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 68
+  },
+  {
+    "id": 171,
+    "name": "الصفحة 171",
+    "verse_count": 4,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 68
+  },
+  {
+    "id": 172,
+    "name": "الصفحة 172",
+    "verse_count": 7,
+    "chapter_id": 7,
+    "group_id": 17,
+    "part_id": 9,
+    "quarter_id": 68
+  },
+  {
+    "id": 173,
+    "name": "الصفحة 173",
+    "verse_count": 8,
+    "chapter_id": 7,
+    "group_id": 18,
+    "part_id": 9,
+    "quarter_id": 69
+  },
+  {
+    "id": 174,
+    "name": "الصفحة 174",
+    "verse_count": 9,
+    "chapter_id": 7,
+    "group_id": 18,
+    "part_id": 9,
+    "quarter_id": 69
+  },
+  {
+    "id": 175,
+    "name": "الصفحة 175",
+    "verse_count": 8,
+    "chapter_id": 7,
+    "group_id": 18,
+    "part_id": 9,
+    "quarter_id": 69
+  },
+  {
+    "id": 176,
+    "name": "الصفحة 176",
+    "verse_count": 11,
+    "chapter_id": 7,
+    "group_id": 18,
+    "part_id": 9,
+    "quarter_id": 70
+  },
+  {
+    "id": 177,
+    "name": "الصفحة 177",
+    "verse_count": 8,
+    "chapter_id": 8,
+    "group_id": 18,
+    "part_id": 9,
+    "quarter_id": 71
+  },
+  {
+    "id": 178,
+    "name": "الصفحة 178",
+    "verse_count": 8,
+    "chapter_id": 8,
+    "group_id": 18,
+    "part_id": 9,
+    "quarter_id": 71
+  },
+  {
+    "id": 179,
+    "name": "الصفحة 179",
+    "verse_count": 9,
+    "chapter_id": 8,
+    "group_id": 18,
+    "part_id": 9,
+    "quarter_id": 71
+  },
+  {
+    "id": 180,
+    "name": "الصفحة 180",
+    "verse_count": 8,
+    "chapter_id": 8,
+    "group_id": 18,
+    "part_id": 9,
+    "quarter_id": 72
+  },
+  {
+    "id": 181,
+    "name": "الصفحة 181",
+    "verse_count": 7,
+    "chapter_id": 8,
+    "group_id": 18,
+    "part_id": 9,
+    "quarter_id": 72
+  },
+  {
+    "id": 182,
+    "name": "الصفحة 182",
+    "verse_count": 5,
+    "chapter_id": 8,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 73
+  },
+  {
+    "id": 183,
+    "name": "الصفحة 183",
+    "verse_count": 7,
+    "chapter_id": 8,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 73
+  },
+  {
+    "id": 184,
+    "name": "الصفحة 184",
+    "verse_count": 9,
+    "chapter_id": 8,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 73
+  },
+  {
+    "id": 185,
+    "name": "الصفحة 185",
+    "verse_count": 8,
+    "chapter_id": 8,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 74
+  },
+  {
+    "id": 186,
+    "name": "الصفحة 186",
+    "verse_count": 6,
+    "chapter_id": 8,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 74
+  },
+  {
+    "id": 187,
+    "name": "الصفحة 187",
+    "verse_count": 6,
+    "chapter_id": 9,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 75
+  },
+  {
+    "id": 188,
+    "name": "الصفحة 188",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 75
+  },
+  {
+    "id": 189,
+    "name": "الصفحة 189",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 75
+  },
+  {
+    "id": 190,
+    "name": "الصفحة 190",
+    "verse_count": 6,
+    "chapter_id": 9,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 76
+  },
+  {
+    "id": 191,
+    "name": "الصفحة 191",
+    "verse_count": 5,
+    "chapter_id": 9,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 76
+  },
+  {
+    "id": 192,
+    "name": "الصفحة 192",
+    "verse_count": 5,
+    "chapter_id": 9,
+    "group_id": 19,
+    "part_id": 10,
+    "quarter_id": 76
+  },
+  {
+    "id": 193,
+    "name": "الصفحة 193",
+    "verse_count": 4,
+    "chapter_id": 9,
+    "group_id": 20,
+    "part_id": 10,
+    "quarter_id": 77
+  },
+  {
+    "id": 194,
+    "name": "الصفحة 194",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 20,
+    "part_id": 10,
+    "quarter_id": 77
+  },
+  {
+    "id": 195,
+    "name": "الصفحة 195",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 20,
+    "part_id": 10,
+    "quarter_id": 78
+  },
+  {
+    "id": 196,
+    "name": "الصفحة 196",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 20,
+    "part_id": 10,
+    "quarter_id": 78
+  },
+  {
+    "id": 197,
+    "name": "الصفحة 197",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 20,
+    "part_id": 10,
+    "quarter_id": 79
+  },
+  {
+    "id": 198,
+    "name": "الصفحة 198",
+    "verse_count": 4,
+    "chapter_id": 9,
+    "group_id": 20,
+    "part_id": 10,
+    "quarter_id": 79
+  },
+  {
+    "id": 199,
+    "name": "الصفحة 199",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 20,
+    "part_id": 10,
+    "quarter_id": 79
+  },
+  {
+    "id": 200,
+    "name": "الصفحة 200",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 20,
+    "part_id": 10,
+    "quarter_id": 80
+  },
+  {
+    "id": 201,
+    "name": "الصفحة 201",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 20,
+    "part_id": 10,
+    "quarter_id": 80
+  },
+  {
+    "id": 202,
+    "name": "الصفحة 202",
+    "verse_count": 6,
+    "chapter_id": 9,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 81
+  },
+  {
+    "id": 203,
+    "name": "الصفحة 203",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 81
+  },
+  {
+    "id": 204,
+    "name": "الصفحة 204",
+    "verse_count": 5,
+    "chapter_id": 9,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 81
+  },
+  {
+    "id": 205,
+    "name": "الصفحة 205",
+    "verse_count": 6,
+    "chapter_id": 9,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 82
+  },
+  {
+    "id": 206,
+    "name": "الصفحة 206",
+    "verse_count": 5,
+    "chapter_id": 9,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 82
+  },
+  {
+    "id": 207,
+    "name": "الصفحة 207",
+    "verse_count": 7,
+    "chapter_id": 9,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 83
+  },
+  {
+    "id": 208,
+    "name": "الصفحة 208",
+    "verse_count": 6,
+    "chapter_id": 10,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 83
+  },
+  {
+    "id": 209,
+    "name": "الصفحة 209",
+    "verse_count": 8,
+    "chapter_id": 10,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 83
+  },
+  {
+    "id": 210,
+    "name": "الصفحة 210",
+    "verse_count": 6,
+    "chapter_id": 10,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 84
+  },
+  {
+    "id": 211,
+    "name": "الصفحة 211",
+    "verse_count": 5,
+    "chapter_id": 10,
+    "group_id": 21,
+    "part_id": 11,
+    "quarter_id": 84
+  },
+  {
+    "id": 212,
+    "name": "الصفحة 212",
+    "verse_count": 8,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 85
+  },
+  {
+    "id": 213,
+    "name": "الصفحة 213",
+    "verse_count": 9,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 85
+  },
+  {
+    "id": 214,
+    "name": "الصفحة 214",
+    "verse_count": 11,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 85
+  },
+  {
+    "id": 215,
+    "name": "الصفحة 215",
+    "verse_count": 8,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 86
+  },
+  {
+    "id": 216,
+    "name": "الصفحة 216",
+    "verse_count": 9,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 86
+  },
+  {
+    "id": 217,
+    "name": "الصفحة 217",
+    "verse_count": 8,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 87
+  },
+  {
+    "id": 218,
+    "name": "الصفحة 218",
+    "verse_count": 10,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 87
+  },
+  {
+    "id": 219,
+    "name": "الصفحة 219",
+    "verse_count": 9,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 87
+  },
+  {
+    "id": 220,
+    "name": "الصفحة 220",
+    "verse_count": 9,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 88
+  },
+  {
+    "id": 221,
+    "name": "الصفحة 221",
+    "verse_count": 8,
+    "chapter_id": 10,
+    "group_id": 22,
+    "part_id": 11,
+    "quarter_id": 88
+  },
+  {
+    "id": 222,
+    "name": "الصفحة 222",
+    "verse_count": 7,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 89
+  },
+  {
+    "id": 223,
+    "name": "الصفحة 223",
+    "verse_count": 7,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 89
+  },
+  {
+    "id": 224,
+    "name": "الصفحة 224",
+    "verse_count": 9,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 89
+  },
+  {
+    "id": 225,
+    "name": "الصفحة 225",
+    "verse_count": 9,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 90
+  },
+  {
+    "id": 226,
+    "name": "الصفحة 226",
+    "verse_count": 8,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 90
+  },
+  {
+    "id": 227,
+    "name": "الصفحة 227",
+    "verse_count": 8,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 91
+  },
+  {
+    "id": 228,
+    "name": "الصفحة 228",
+    "verse_count": 9,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 91
+  },
+  {
+    "id": 229,
+    "name": "الصفحة 229",
+    "verse_count": 9,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 92
+  },
+  {
+    "id": 230,
+    "name": "الصفحة 230",
+    "verse_count": 10,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 92
+  },
+  {
+    "id": 231,
+    "name": "الصفحة 231",
+    "verse_count": 7,
+    "chapter_id": 11,
+    "group_id": 23,
+    "part_id": 12,
+    "quarter_id": 92
+  },
+  {
+    "id": 232,
+    "name": "الصفحة 232",
+    "verse_count": 9,
+    "chapter_id": 11,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 93
+  },
+  {
+    "id": 233,
+    "name": "الصفحة 233",
+    "verse_count": 11,
+    "chapter_id": 11,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 93
+  },
+  {
+    "id": 234,
+    "name": "الصفحة 234",
+    "verse_count": 9,
+    "chapter_id": 11,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 94
+  },
+  {
+    "id": 235,
+    "name": "الصفحة 235",
+    "verse_count": 10,
+    "chapter_id": 11,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 94
+  },
+  {
+    "id": 236,
+    "name": "الصفحة 236",
+    "verse_count": 10,
+    "chapter_id": 12,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 94
+  },
+  {
+    "id": 237,
+    "name": "الصفحة 237",
+    "verse_count": 8,
+    "chapter_id": 12,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 95
+  },
+  {
+    "id": 238,
+    "name": "الصفحة 238",
+    "verse_count": 8,
+    "chapter_id": 12,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 95
+  },
+  {
+    "id": 239,
+    "name": "الصفحة 239",
+    "verse_count": 7,
+    "chapter_id": 12,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 96
+  },
+  {
+    "id": 240,
+    "name": "الصفحة 240",
+    "verse_count": 6,
+    "chapter_id": 12,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 96
+  },
+  {
+    "id": 241,
+    "name": "الصفحة 241",
+    "verse_count": 9,
+    "chapter_id": 12,
+    "group_id": 24,
+    "part_id": 12,
+    "quarter_id": 96
+  },
+  {
+    "id": 242,
+    "name": "الصفحة 242",
+    "verse_count": 11,
+    "chapter_id": 12,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 97
+  },
+  {
+    "id": 243,
+    "name": "الصفحة 243",
+    "verse_count": 6,
+    "chapter_id": 12,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 97
+  },
+  {
+    "id": 244,
+    "name": "الصفحة 244",
+    "verse_count": 9,
+    "chapter_id": 12,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 97
+  },
+  {
+    "id": 245,
+    "name": "الصفحة 245",
+    "verse_count": 8,
+    "chapter_id": 12,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 98
+  },
+  {
+    "id": 246,
+    "name": "الصفحة 246",
+    "verse_count": 9,
+    "chapter_id": 12,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 98
+  },
+  {
+    "id": 247,
+    "name": "الصفحة 247",
+    "verse_count": 8,
+    "chapter_id": 12,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 98
+  },
+  {
+    "id": 248,
+    "name": "الصفحة 248",
+    "verse_count": 8,
+    "chapter_id": 12,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 99
+  },
+  {
+    "id": 249,
+    "name": "الصفحة 249",
+    "verse_count": 5,
+    "chapter_id": 13,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 99
+  },
+  {
+    "id": 250,
+    "name": "الصفحة 250",
+    "verse_count": 8,
+    "chapter_id": 13,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 100
+  },
+  {
+    "id": 251,
+    "name": "الصفحة 251",
+    "verse_count": 5,
+    "chapter_id": 13,
+    "group_id": 25,
+    "part_id": 13,
+    "quarter_id": 100
+  },
+  {
+    "id": 252,
+    "name": "الصفحة 252",
+    "verse_count": 10,
+    "chapter_id": 13,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 101
+  },
+  {
+    "id": 253,
+    "name": "الصفحة 253",
+    "verse_count": 6,
+    "chapter_id": 13,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 101
+  },
+  {
+    "id": 254,
+    "name": "الصفحة 254",
+    "verse_count": 8,
+    "chapter_id": 13,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 102
+  },
+  {
+    "id": 255,
+    "name": "الصفحة 255",
+    "verse_count": 6,
+    "chapter_id": 13,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 102
+  },
+  {
+    "id": 256,
+    "name": "الصفحة 256",
+    "verse_count": 5,
+    "chapter_id": 14,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 102
+  },
+  {
+    "id": 257,
+    "name": "الصفحة 257",
+    "verse_count": 8,
+    "chapter_id": 14,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 103
+  },
+  {
+    "id": 258,
+    "name": "الصفحة 258",
+    "verse_count": 6,
+    "chapter_id": 14,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 103
+  },
+  {
+    "id": 259,
+    "name": "الصفحة 259",
+    "verse_count": 9,
+    "chapter_id": 14,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 103
+  },
+  {
+    "id": 260,
+    "name": "الصفحة 260",
+    "verse_count": 9,
+    "chapter_id": 14,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 104
+  },
+  {
+    "id": 261,
+    "name": "الصفحة 261",
+    "verse_count": 10,
+    "chapter_id": 14,
+    "group_id": 26,
+    "part_id": 13,
+    "quarter_id": 104
+  },
+  {
+    "id": 262,
+    "name": "الصفحة 262",
+    "verse_count": 15,
+    "chapter_id": 15,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 105
+  },
+  {
+    "id": 263,
+    "name": "الصفحة 263",
+    "verse_count": 16,
+    "chapter_id": 15,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 105
+  },
+  {
+    "id": 264,
+    "name": "الصفحة 264",
+    "verse_count": 20,
+    "chapter_id": 15,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 105
+  },
+  {
+    "id": 265,
+    "name": "الصفحة 265",
+    "verse_count": 19,
+    "chapter_id": 15,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 106
+  },
+  {
+    "id": 266,
+    "name": "الصفحة 266",
+    "verse_count": 20,
+    "chapter_id": 15,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 106
+  },
+  {
+    "id": 267,
+    "name": "الصفحة 267",
+    "verse_count": 15,
+    "chapter_id": 15,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 106
+  },
+  {
+    "id": 268,
+    "name": "الصفحة 268",
+    "verse_count": 8,
+    "chapter_id": 16,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 107
+  },
+  {
+    "id": 269,
+    "name": "الصفحة 269",
+    "verse_count": 12,
+    "chapter_id": 16,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 107
+  },
+  {
+    "id": 270,
+    "name": "الصفحة 270",
+    "verse_count": 8,
+    "chapter_id": 16,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 107
+  },
+  {
+    "id": 271,
+    "name": "الصفحة 271",
+    "verse_count": 8,
+    "chapter_id": 16,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 108
+  },
+  {
+    "id": 272,
+    "name": "الصفحة 272",
+    "verse_count": 12,
+    "chapter_id": 16,
+    "group_id": 27,
+    "part_id": 14,
+    "quarter_id": 108
+  },
+  {
+    "id": 273,
+    "name": "الصفحة 273",
+    "verse_count": 10,
+    "chapter_id": 16,
+    "group_id": 28,
+    "part_id": 14,
+    "quarter_id": 109
+  },
+  {
+    "id": 274,
+    "name": "الصفحة 274",
+    "verse_count": 8,
+    "chapter_id": 16,
+    "group_id": 28,
+    "part_id": 14,
+    "quarter_id": 109
+  },
+  {
+    "id": 275,
+    "name": "الصفحة 275",
+    "verse_count": 7,
+    "chapter_id": 16,
+    "group_id": 28,
+    "part_id": 14,
+    "quarter_id": 109
+  },
+  {
+    "id": 276,
+    "name": "الصفحة 276",
+    "verse_count": 8,
+    "chapter_id": 16,
+    "group_id": 28,
+    "part_id": 14,
+    "quarter_id": 110
+  },
+  {
+    "id": 277,
+    "name": "الصفحة 277",
+    "verse_count": 6,
+    "chapter_id": 16,
+    "group_id": 28,
+    "part_id": 14,
+    "quarter_id": 110
+  },
+  {
+    "id": 278,
+    "name": "الصفحة 278",
+    "verse_count": 9,
+    "chapter_id": 16,
+    "group_id": 28,
+    "part_id": 14,
+    "quarter_id": 111
+  },
+  {
+    "id": 279,
+    "name": "الصفحة 279",
+    "verse_count": 8,
+    "chapter_id": 16,
+    "group_id": 28,
+    "part_id": 14,
+    "quarter_id": 111
+  },
+  {
+    "id": 280,
+    "name": "الصفحة 280",
+    "verse_count": 8,
+    "chapter_id": 16,
+    "group_id": 28,
+    "part_id": 14,
+    "quarter_id": 112
+  },
+  {
+    "id": 281,
+    "name": "الصفحة 281",
+    "verse_count": 10,
+    "chapter_id": 16,
+    "group_id": 28,
+    "part_id": 14,
+    "quarter_id": 112
+  },
+  {
+    "id": 282,
+    "name": "الصفحة 282",
+    "verse_count": 7,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 113
+  },
+  {
+    "id": 283,
+    "name": "الصفحة 283",
+    "verse_count": 10,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 113
+  },
+  {
+    "id": 284,
+    "name": "الصفحة 284",
+    "verse_count": 10,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 113
+  },
+  {
+    "id": 285,
+    "name": "الصفحة 285",
+    "verse_count": 11,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 114
+  },
+  {
+    "id": 286,
+    "name": "الصفحة 286",
+    "verse_count": 11,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 114
+  },
+  {
+    "id": 287,
+    "name": "الصفحة 287",
+    "verse_count": 9,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 115
+  },
+  {
+    "id": 288,
+    "name": "الصفحة 288",
+    "verse_count": 8,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 115
+  },
+  {
+    "id": 289,
+    "name": "الصفحة 289",
+    "verse_count": 9,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 115
+  },
+  {
+    "id": 290,
+    "name": "الصفحة 290",
+    "verse_count": 11,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 116
+  },
+  {
+    "id": 291,
+    "name": "الصفحة 291",
+    "verse_count": 10,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 116
+  },
+  {
+    "id": 292,
+    "name": "الصفحة 292",
+    "verse_count": 8,
+    "chapter_id": 17,
+    "group_id": 29,
+    "part_id": 15,
+    "quarter_id": 116
+  },
+  {
+    "id": 293,
+    "name": "الصفحة 293",
+    "verse_count": 11,
+    "chapter_id": 17,
+    "group_id": 30,
+    "part_id": 15,
+    "quarter_id": 117
+  },
+  {
+    "id": 294,
+    "name": "الصفحة 294",
+    "verse_count": 11,
+    "chapter_id": 18,
+    "group_id": 30,
+    "part_id": 15,
+    "quarter_id": 117
+  },
+  {
+    "id": 295,
+    "name": "الصفحة 295",
+    "verse_count": 5,
+    "chapter_id": 18,
+    "group_id": 30,
+    "part_id": 15,
+    "quarter_id": 117
+  },
+  {
+    "id": 296,
+    "name": "الصفحة 296",
+    "verse_count": 7,
+    "chapter_id": 18,
+    "group_id": 30,
+    "part_id": 15,
+    "quarter_id": 118
+  },
+  {
+    "id": 297,
+    "name": "الصفحة 297",
+    "verse_count": 7,
+    "chapter_id": 18,
+    "group_id": 30,
+    "part_id": 15,
+    "quarter_id": 118
+  },
+  {
+    "id": 298,
+    "name": "الصفحة 298",
+    "verse_count": 11,
+    "chapter_id": 18,
+    "group_id": 30,
+    "part_id": 15,
+    "quarter_id": 119
+  },
+  {
+    "id": 299,
+    "name": "الصفحة 299",
+    "verse_count": 8,
+    "chapter_id": 18,
+    "group_id": 30,
+    "part_id": 15,
+    "quarter_id": 119
+  },
+  {
+    "id": 300,
+    "name": "الصفحة 300",
+    "verse_count": 8,
+    "chapter_id": 18,
+    "group_id": 30,
+    "part_id": 15,
+    "quarter_id": 120
+  },
+  {
+    "id": 301,
+    "name": "الصفحة 301",
+    "verse_count": 13,
+    "chapter_id": 18,
+    "group_id": 30,
+    "part_id": 15,
+    "quarter_id": 120
+  },
+  {
+    "id": 302,
+    "name": "الصفحة 302",
+    "verse_count": 9,
+    "chapter_id": 18,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 121
+  },
+  {
+    "id": 303,
+    "name": "الصفحة 303",
+    "verse_count": 14,
+    "chapter_id": 18,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 121
+  },
+  {
+    "id": 304,
+    "name": "الصفحة 304",
+    "verse_count": 13,
+    "chapter_id": 18,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 121
+  },
+  {
+    "id": 305,
+    "name": "الصفحة 305",
+    "verse_count": 11,
+    "chapter_id": 19,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 122
+  },
+  {
+    "id": 306,
+    "name": "الصفحة 306",
+    "verse_count": 14,
+    "chapter_id": 19,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 122
+  },
+  {
+    "id": 307,
+    "name": "الصفحة 307",
+    "verse_count": 13,
+    "chapter_id": 19,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 123
+  },
+  {
+    "id": 308,
+    "name": "الصفحة 308",
+    "verse_count": 13,
+    "chapter_id": 19,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 123
+  },
+  {
+    "id": 309,
+    "name": "الصفحة 309",
+    "verse_count": 13,
+    "chapter_id": 19,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 123
+  },
+  {
+    "id": 310,
+    "name": "الصفحة 310",
+    "verse_count": 12,
+    "chapter_id": 19,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 124
+  },
+  {
+    "id": 311,
+    "name": "الصفحة 311",
+    "verse_count": 19,
+    "chapter_id": 19,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 124
+  },
+  {
+    "id": 312,
+    "name": "الصفحة 312",
+    "verse_count": 15,
+    "chapter_id": 19,
+    "group_id": 31,
+    "part_id": 16,
+    "quarter_id": 124
+  },
+  {
+    "id": 313,
+    "name": "الصفحة 313",
+    "verse_count": 25,
+    "chapter_id": 20,
+    "group_id": 32,
+    "part_id": 16,
+    "quarter_id": 125
+  },
+  {
+    "id": 314,
+    "name": "الصفحة 314",
+    "verse_count": 14,
+    "chapter_id": 20,
+    "group_id": 32,
+    "part_id": 16,
+    "quarter_id": 125
+  },
+  {
+    "id": 315,
+    "name": "الصفحة 315",
+    "verse_count": 13,
+    "chapter_id": 20,
+    "group_id": 32,
+    "part_id": 16,
+    "quarter_id": 125
+  },
+  {
+    "id": 316,
+    "name": "الصفحة 316",
+    "verse_count": 12,
+    "chapter_id": 20,
+    "group_id": 32,
+    "part_id": 16,
+    "quarter_id": 126
+  },
+  {
+    "id": 317,
+    "name": "الصفحة 317",
+    "verse_count": 11,
+    "chapter_id": 20,
+    "group_id": 32,
+    "part_id": 16,
+    "quarter_id": 126
+  },
+  {
+    "id": 318,
+    "name": "الصفحة 318",
+    "verse_count": 11,
+    "chapter_id": 20,
+    "group_id": 32,
+    "part_id": 16,
+    "quarter_id": 127
+  },
+  {
+    "id": 319,
+    "name": "الصفحة 319",
+    "verse_count": 15,
+    "chapter_id": 20,
+    "group_id": 32,
+    "part_id": 16,
+    "quarter_id": 127
+  },
+  {
+    "id": 320,
+    "name": "الصفحة 320",
+    "verse_count": 12,
+    "chapter_id": 20,
+    "group_id": 32,
+    "part_id": 16,
+    "quarter_id": 128
+  },
+  {
+    "id": 321,
+    "name": "الصفحة 321",
+    "verse_count": 10,
+    "chapter_id": 20,
+    "group_id": 32,
+    "part_id": 16,
+    "quarter_id": 128
+  },
+  {
+    "id": 322,
+    "name": "الصفحة 322",
+    "verse_count": 10,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 129
+  },
+  {
+    "id": 323,
+    "name": "الصفحة 323",
+    "verse_count": 14,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 129
+  },
+  {
+    "id": 324,
+    "name": "الصفحة 324",
+    "verse_count": 11,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 129
+  },
+  {
+    "id": 325,
+    "name": "الصفحة 325",
+    "verse_count": 9,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 130
+  },
+  {
+    "id": 326,
+    "name": "الصفحة 326",
+    "verse_count": 13,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 130
+  },
+  {
+    "id": 327,
+    "name": "الصفحة 327",
+    "verse_count": 15,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 131
+  },
+  {
+    "id": 328,
+    "name": "الصفحة 328",
+    "verse_count": 9,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 131
+  },
+  {
+    "id": 329,
+    "name": "الصفحة 329",
+    "verse_count": 9,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 131
+  },
+  {
+    "id": 330,
+    "name": "الصفحة 330",
+    "verse_count": 11,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 132
+  },
+  {
+    "id": 331,
+    "name": "الصفحة 331",
+    "verse_count": 11,
+    "chapter_id": 21,
+    "group_id": 33,
+    "part_id": 17,
+    "quarter_id": 132
+  },
+  {
+    "id": 332,
+    "name": "الصفحة 332",
+    "verse_count": 5,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 133
+  },
+  {
+    "id": 333,
+    "name": "الصفحة 333",
+    "verse_count": 10,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 133
+  },
+  {
+    "id": 334,
+    "name": "الصفحة 334",
+    "verse_count": 8,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 133
+  },
+  {
+    "id": 335,
+    "name": "الصفحة 335",
+    "verse_count": 7,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 134
+  },
+  {
+    "id": 336,
+    "name": "الصفحة 336",
+    "verse_count": 8,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 134
+  },
+  {
+    "id": 337,
+    "name": "الصفحة 337",
+    "verse_count": 8,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 135
+  },
+  {
+    "id": 338,
+    "name": "الصفحة 338",
+    "verse_count": 9,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 135
+  },
+  {
+    "id": 339,
+    "name": "الصفحة 339",
+    "verse_count": 9,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 135
+  },
+  {
+    "id": 340,
+    "name": "الصفحة 340",
+    "verse_count": 8,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 136
+  },
+  {
+    "id": 341,
+    "name": "الصفحة 341",
+    "verse_count": 6,
+    "chapter_id": 22,
+    "group_id": 34,
+    "part_id": 17,
+    "quarter_id": 136
+  },
+  {
+    "id": 342,
+    "name": "الصفحة 342",
+    "verse_count": 17,
+    "chapter_id": 23,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 137
+  },
+  {
+    "id": 343,
+    "name": "الصفحة 343",
+    "verse_count": 10,
+    "chapter_id": 23,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 137
+  },
+  {
+    "id": 344,
+    "name": "الصفحة 344",
+    "verse_count": 15,
+    "chapter_id": 23,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 137
+  },
+  {
+    "id": 345,
+    "name": "الصفحة 345",
+    "verse_count": 17,
+    "chapter_id": 23,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 138
+  },
+  {
+    "id": 346,
+    "name": "الصفحة 346",
+    "verse_count": 15,
+    "chapter_id": 23,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 138
+  },
+  {
+    "id": 347,
+    "name": "الصفحة 347",
+    "verse_count": 15,
+    "chapter_id": 23,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 139
+  },
+  {
+    "id": 348,
+    "name": "الصفحة 348",
+    "verse_count": 15,
+    "chapter_id": 23,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 139
+  },
+  {
+    "id": 349,
+    "name": "الصفحة 349",
+    "verse_count": 14,
+    "chapter_id": 23,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 139
+  },
+  {
+    "id": 350,
+    "name": "الصفحة 350",
+    "verse_count": 10,
+    "chapter_id": 24,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 140
+  },
+  {
+    "id": 351,
+    "name": "الصفحة 351",
+    "verse_count": 10,
+    "chapter_id": 24,
+    "group_id": 35,
+    "part_id": 18,
+    "quarter_id": 140
+  },
+  {
+    "id": 352,
+    "name": "الصفحة 352",
+    "verse_count": 7,
+    "chapter_id": 24,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 141
+  },
+  {
+    "id": 353,
+    "name": "الصفحة 353",
+    "verse_count": 4,
+    "chapter_id": 24,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 141
+  },
+  {
+    "id": 354,
+    "name": "الصفحة 354",
+    "verse_count": 5,
+    "chapter_id": 24,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 141
+  },
+  {
+    "id": 355,
+    "name": "الصفحة 355",
+    "verse_count": 7,
+    "chapter_id": 24,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 142
+  },
+  {
+    "id": 356,
+    "name": "الصفحة 356",
+    "verse_count": 10,
+    "chapter_id": 24,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 142
+  },
+  {
+    "id": 357,
+    "name": "الصفحة 357",
+    "verse_count": 5,
+    "chapter_id": 24,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 143
+  },
+  {
+    "id": 358,
+    "name": "الصفحة 358",
+    "verse_count": 3,
+    "chapter_id": 24,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 143
+  },
+  {
+    "id": 359,
+    "name": "الصفحة 359",
+    "verse_count": 5,
+    "chapter_id": 24,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 143
+  },
+  {
+    "id": 360,
+    "name": "الصفحة 360",
+    "verse_count": 9,
+    "chapter_id": 25,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 144
+  },
+  {
+    "id": 361,
+    "name": "الصفحة 361",
+    "verse_count": 9,
+    "chapter_id": 25,
+    "group_id": 36,
+    "part_id": 18,
+    "quarter_id": 144
+  },
+  {
+    "id": 362,
+    "name": "الصفحة 362",
+    "verse_count": 12,
+    "chapter_id": 25,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 145
+  },
+  {
+    "id": 363,
+    "name": "الصفحة 363",
+    "verse_count": 11,
+    "chapter_id": 25,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 145
+  },
+  {
+    "id": 364,
+    "name": "الصفحة 364",
+    "verse_count": 12,
+    "chapter_id": 25,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 145
+  },
+  {
+    "id": 365,
+    "name": "الصفحة 365",
+    "verse_count": 12,
+    "chapter_id": 25,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 146
+  },
+  {
+    "id": 366,
+    "name": "الصفحة 366",
+    "verse_count": 10,
+    "chapter_id": 25,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 146
+  },
+  {
+    "id": 367,
+    "name": "الصفحة 367",
+    "verse_count": 19,
+    "chapter_id": 26,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 147
+  },
+  {
+    "id": 368,
+    "name": "الصفحة 368",
+    "verse_count": 20,
+    "chapter_id": 26,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 147
+  },
+  {
+    "id": 369,
+    "name": "الصفحة 369",
+    "verse_count": 21,
+    "chapter_id": 26,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 147
+  },
+  {
+    "id": 370,
+    "name": "الصفحة 370",
+    "verse_count": 23,
+    "chapter_id": 26,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 148
+  },
+  {
+    "id": 371,
+    "name": "الصفحة 371",
+    "verse_count": 28,
+    "chapter_id": 26,
+    "group_id": 37,
+    "part_id": 19,
+    "quarter_id": 148
+  },
+  {
+    "id": 372,
+    "name": "الصفحة 372",
+    "verse_count": 25,
+    "chapter_id": 26,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 149
+  },
+  {
+    "id": 373,
+    "name": "الصفحة 373",
+    "verse_count": 23,
+    "chapter_id": 26,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 149
+  },
+  {
+    "id": 374,
+    "name": "الصفحة 374",
+    "verse_count": 24,
+    "chapter_id": 26,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 149
+  },
+  {
+    "id": 375,
+    "name": "الصفحة 375",
+    "verse_count": 23,
+    "chapter_id": 26,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 150
+  },
+  {
+    "id": 376,
+    "name": "الصفحة 376",
+    "verse_count": 21,
+    "chapter_id": 26,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 150
+  },
+  {
+    "id": 377,
+    "name": "الصفحة 377",
+    "verse_count": 13,
+    "chapter_id": 27,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 151
+  },
+  {
+    "id": 378,
+    "name": "الصفحة 378",
+    "verse_count": 9,
+    "chapter_id": 27,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 151
+  },
+  {
+    "id": 379,
+    "name": "الصفحة 379",
+    "verse_count": 13,
+    "chapter_id": 27,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 151
+  },
+  {
+    "id": 380,
+    "name": "الصفحة 380",
+    "verse_count": 9,
+    "chapter_id": 27,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 152
+  },
+  {
+    "id": 381,
+    "name": "الصفحة 381",
+    "verse_count": 11,
+    "chapter_id": 27,
+    "group_id": 38,
+    "part_id": 19,
+    "quarter_id": 152
+  },
+  {
+    "id": 382,
+    "name": "الصفحة 382",
+    "verse_count": 8,
+    "chapter_id": 27,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 153
+  },
+  {
+    "id": 383,
+    "name": "الصفحة 383",
+    "verse_count": 13,
+    "chapter_id": 27,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 153
+  },
+  {
+    "id": 384,
+    "name": "الصفحة 384",
+    "verse_count": 12,
+    "chapter_id": 27,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 153
+  },
+  {
+    "id": 385,
+    "name": "الصفحة 385",
+    "verse_count": 10,
+    "chapter_id": 27,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 154
+  },
+  {
+    "id": 386,
+    "name": "الصفحة 386",
+    "verse_count": 8,
+    "chapter_id": 28,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 154
+  },
+  {
+    "id": 387,
+    "name": "الصفحة 387",
+    "verse_count": 8,
+    "chapter_id": 28,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 155
+  },
+  {
+    "id": 388,
+    "name": "الصفحة 388",
+    "verse_count": 7,
+    "chapter_id": 28,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 155
+  },
+  {
+    "id": 389,
+    "name": "الصفحة 389",
+    "verse_count": 7,
+    "chapter_id": 28,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 156
+  },
+  {
+    "id": 390,
+    "name": "الصفحة 390",
+    "verse_count": 8,
+    "chapter_id": 28,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 156
+  },
+  {
+    "id": 391,
+    "name": "الصفحة 391",
+    "verse_count": 7,
+    "chapter_id": 28,
+    "group_id": 39,
+    "part_id": 20,
+    "quarter_id": 156
+  },
+  {
+    "id": 392,
+    "name": "الصفحة 392",
+    "verse_count": 9,
+    "chapter_id": 28,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 157
+  },
+  {
+    "id": 393,
+    "name": "الصفحة 393",
+    "verse_count": 11,
+    "chapter_id": 28,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 157
+  },
+  {
+    "id": 394,
+    "name": "الصفحة 394",
+    "verse_count": 7,
+    "chapter_id": 28,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 157
+  },
+  {
+    "id": 395,
+    "name": "الصفحة 395",
+    "verse_count": 7,
+    "chapter_id": 28,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 158
+  },
+  {
+    "id": 396,
+    "name": "الصفحة 396",
+    "verse_count": 10,
+    "chapter_id": 28,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 158
+  },
+  {
+    "id": 397,
+    "name": "الصفحة 397",
+    "verse_count": 8,
+    "chapter_id": 29,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 159
+  },
+  {
+    "id": 398,
+    "name": "الصفحة 398",
+    "verse_count": 9,
+    "chapter_id": 29,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 159
+  },
+  {
+    "id": 399,
+    "name": "الصفحة 399",
+    "verse_count": 7,
+    "chapter_id": 29,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 159
+  },
+  {
+    "id": 400,
+    "name": "الصفحة 400",
+    "verse_count": 8,
+    "chapter_id": 29,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 160
+  },
+  {
+    "id": 401,
+    "name": "الصفحة 401",
+    "verse_count": 7,
+    "chapter_id": 29,
+    "group_id": 40,
+    "part_id": 20,
+    "quarter_id": 160
+  },
+  {
+    "id": 402,
+    "name": "الصفحة 402",
+    "verse_count": 7,
+    "chapter_id": 29,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 161
+  },
+  {
+    "id": 403,
+    "name": "الصفحة 403",
+    "verse_count": 11,
+    "chapter_id": 29,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 161
+  },
+  {
+    "id": 404,
+    "name": "الصفحة 404",
+    "verse_count": 11,
+    "chapter_id": 29,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 161
+  },
+  {
+    "id": 405,
+    "name": "الصفحة 405",
+    "verse_count": 10,
+    "chapter_id": 30,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 162
+  },
+  {
+    "id": 406,
+    "name": "الصفحة 406",
+    "verse_count": 9,
+    "chapter_id": 30,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 162
+  },
+  {
+    "id": 407,
+    "name": "الصفحة 407",
+    "verse_count": 8,
+    "chapter_id": 30,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 162
+  },
+  {
+    "id": 408,
+    "name": "الصفحة 408",
+    "verse_count": 9,
+    "chapter_id": 30,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 163
+  },
+  {
+    "id": 409,
+    "name": "الصفحة 409",
+    "verse_count": 9,
+    "chapter_id": 30,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 163
+  },
+  {
+    "id": 410,
+    "name": "الصفحة 410",
+    "verse_count": 10,
+    "chapter_id": 30,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 163
+  },
+  {
+    "id": 411,
+    "name": "الصفحة 411",
+    "verse_count": 11,
+    "chapter_id": 31,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 164
+  },
+  {
+    "id": 412,
+    "name": "الصفحة 412",
+    "verse_count": 8,
+    "chapter_id": 31,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 164
+  },
+  {
+    "id": 413,
+    "name": "الصفحة 413",
+    "verse_count": 9,
+    "chapter_id": 31,
+    "group_id": 41,
+    "part_id": 21,
+    "quarter_id": 164
+  },
+  {
+    "id": 414,
+    "name": "الصفحة 414",
+    "verse_count": 6,
+    "chapter_id": 31,
+    "group_id": 42,
+    "part_id": 21,
+    "quarter_id": 165
+  },
+  {
+    "id": 415,
+    "name": "الصفحة 415",
+    "verse_count": 11,
+    "chapter_id": 32,
+    "group_id": 42,
+    "part_id": 21,
+    "quarter_id": 165
+  },
+  {
+    "id": 416,
+    "name": "الصفحة 416",
+    "verse_count": 9,
+    "chapter_id": 32,
+    "group_id": 42,
+    "part_id": 21,
+    "quarter_id": 166
+  },
+  {
+    "id": 417,
+    "name": "الصفحة 417",
+    "verse_count": 10,
+    "chapter_id": 32,
+    "group_id": 42,
+    "part_id": 21,
+    "quarter_id": 166
+  },
+  {
+    "id": 418,
+    "name": "الصفحة 418",
+    "verse_count": 6,
+    "chapter_id": 33,
+    "group_id": 42,
+    "part_id": 21,
+    "quarter_id": 167
+  },
+  {
+    "id": 419,
+    "name": "الصفحة 419",
+    "verse_count": 9,
+    "chapter_id": 33,
+    "group_id": 42,
+    "part_id": 21,
+    "quarter_id": 167
+  },
+  {
+    "id": 420,
+    "name": "الصفحة 420",
+    "verse_count": 7,
+    "chapter_id": 33,
+    "group_id": 42,
+    "part_id": 21,
+    "quarter_id": 167
+  },
+  {
+    "id": 421,
+    "name": "الصفحة 421",
+    "verse_count": 8,
+    "chapter_id": 33,
+    "group_id": 42,
+    "part_id": 21,
+    "quarter_id": 168
+  },
+  {
+    "id": 422,
+    "name": "الصفحة 422",
+    "verse_count": 5,
+    "chapter_id": 33,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 169
+  },
+  {
+    "id": 423,
+    "name": "الصفحة 423",
+    "verse_count": 8,
+    "chapter_id": 33,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 169
+  },
+  {
+    "id": 424,
+    "name": "الصفحة 424",
+    "verse_count": 7,
+    "chapter_id": 33,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 169
+  },
+  {
+    "id": 425,
+    "name": "الصفحة 425",
+    "verse_count": 4,
+    "chapter_id": 33,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 170
+  },
+  {
+    "id": 426,
+    "name": "الصفحة 426",
+    "verse_count": 8,
+    "chapter_id": 33,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 170
+  },
+  {
+    "id": 427,
+    "name": "الصفحة 427",
+    "verse_count": 11,
+    "chapter_id": 33,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 171
+  },
+  {
+    "id": 428,
+    "name": "الصفحة 428",
+    "verse_count": 7,
+    "chapter_id": 34,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 171
+  },
+  {
+    "id": 429,
+    "name": "الصفحة 429",
+    "verse_count": 7,
+    "chapter_id": 34,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 171
+  },
+  {
+    "id": 430,
+    "name": "الصفحة 430",
+    "verse_count": 8,
+    "chapter_id": 34,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 172
+  },
+  {
+    "id": 431,
+    "name": "الصفحة 431",
+    "verse_count": 9,
+    "chapter_id": 34,
+    "group_id": 43,
+    "part_id": 22,
+    "quarter_id": 172
+  },
+  {
+    "id": 432,
+    "name": "الصفحة 432",
+    "verse_count": 8,
+    "chapter_id": 34,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 173
+  },
+  {
+    "id": 433,
+    "name": "الصفحة 433",
+    "verse_count": 9,
+    "chapter_id": 34,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 173
+  },
+  {
+    "id": 434,
+    "name": "الصفحة 434",
+    "verse_count": 9,
+    "chapter_id": 34,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 174
+  },
+  {
+    "id": 435,
+    "name": "الصفحة 435",
+    "verse_count": 8,
+    "chapter_id": 35,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 174
+  },
+  {
+    "id": 436,
+    "name": "الصفحة 436",
+    "verse_count": 7,
+    "chapter_id": 35,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 174
+  },
+  {
+    "id": 437,
+    "name": "الصفحة 437",
+    "verse_count": 12,
+    "chapter_id": 35,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 175
+  },
+  {
+    "id": 438,
+    "name": "الصفحة 438",
+    "verse_count": 8,
+    "chapter_id": 35,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 175
+  },
+  {
+    "id": 439,
+    "name": "الصفحة 439",
+    "verse_count": 6,
+    "chapter_id": 35,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 175
+  },
+  {
+    "id": 440,
+    "name": "الصفحة 440",
+    "verse_count": 13,
+    "chapter_id": 35,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 176
+  },
+  {
+    "id": 441,
+    "name": "الصفحة 441",
+    "verse_count": 15,
+    "chapter_id": 36,
+    "group_id": 44,
+    "part_id": 22,
+    "quarter_id": 176
+  },
+  {
+    "id": 442,
+    "name": "الصفحة 442",
+    "verse_count": 13,
+    "chapter_id": 36,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 177
+  },
+  {
+    "id": 443,
+    "name": "الصفحة 443",
+    "verse_count": 14,
+    "chapter_id": 36,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 177
+  },
+  {
+    "id": 444,
+    "name": "الصفحة 444",
+    "verse_count": 16,
+    "chapter_id": 36,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 177
+  },
+  {
+    "id": 445,
+    "name": "الصفحة 445",
+    "verse_count": 13,
+    "chapter_id": 36,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 178
+  },
+  {
+    "id": 446,
+    "name": "الصفحة 446",
+    "verse_count": 24,
+    "chapter_id": 37,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 178
+  },
+  {
+    "id": 447,
+    "name": "الصفحة 447",
+    "verse_count": 27,
+    "chapter_id": 37,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 179
+  },
+  {
+    "id": 448,
+    "name": "الصفحة 448",
+    "verse_count": 25,
+    "chapter_id": 37,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 179
+  },
+  {
+    "id": 449,
+    "name": "الصفحة 449",
+    "verse_count": 26,
+    "chapter_id": 37,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 179
+  },
+  {
+    "id": 450,
+    "name": "الصفحة 450",
+    "verse_count": 24,
+    "chapter_id": 37,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 180
+  },
+  {
+    "id": 451,
+    "name": "الصفحة 451",
+    "verse_count": 27,
+    "chapter_id": 37,
+    "group_id": 45,
+    "part_id": 23,
+    "quarter_id": 180
+  },
+  {
+    "id": 452,
+    "name": "الصفحة 452",
+    "verse_count": 29,
+    "chapter_id": 37,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 181
+  },
+  {
+    "id": 453,
+    "name": "الصفحة 453",
+    "verse_count": 16,
+    "chapter_id": 38,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 181
+  },
+  {
+    "id": 454,
+    "name": "الصفحة 454",
+    "verse_count": 10,
+    "chapter_id": 38,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 181
+  },
+  {
+    "id": 455,
+    "name": "الصفحة 455",
+    "verse_count": 16,
+    "chapter_id": 38,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 182
+  },
+  {
+    "id": 456,
+    "name": "الصفحة 456",
+    "verse_count": 19,
+    "chapter_id": 38,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 182
+  },
+  {
+    "id": 457,
+    "name": "الصفحة 457",
+    "verse_count": 22,
+    "chapter_id": 38,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 183
+  },
+  {
+    "id": 458,
+    "name": "الصفحة 458",
+    "verse_count": 10,
+    "chapter_id": 38,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 183
+  },
+  {
+    "id": 459,
+    "name": "الصفحة 459",
+    "verse_count": 5,
+    "chapter_id": 39,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 183
+  },
+  {
+    "id": 460,
+    "name": "الصفحة 460",
+    "verse_count": 11,
+    "chapter_id": 39,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 184
+  },
+  {
+    "id": 461,
+    "name": "الصفحة 461",
+    "verse_count": 10,
+    "chapter_id": 39,
+    "group_id": 46,
+    "part_id": 23,
+    "quarter_id": 184
+  },
+  {
+    "id": 462,
+    "name": "الصفحة 462",
+    "verse_count": 9,
+    "chapter_id": 39,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 185
+  },
+  {
+    "id": 463,
+    "name": "الصفحة 463",
+    "verse_count": 7,
+    "chapter_id": 39,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 185
+  },
+  {
+    "id": 464,
+    "name": "الصفحة 464",
+    "verse_count": 9,
+    "chapter_id": 39,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 185
+  },
+  {
+    "id": 465,
+    "name": "الصفحة 465",
+    "verse_count": 11,
+    "chapter_id": 39,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 186
+  },
+  {
+    "id": 466,
+    "name": "الصفحة 466",
+    "verse_count": 7,
+    "chapter_id": 39,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 186
+  },
+  {
+    "id": 467,
+    "name": "الصفحة 467",
+    "verse_count": 8,
+    "chapter_id": 39,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 186
+  },
+  {
+    "id": 468,
+    "name": "الصفحة 468",
+    "verse_count": 9,
+    "chapter_id": 40,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 187
+  },
+  {
+    "id": 469,
+    "name": "الصفحة 469",
+    "verse_count": 9,
+    "chapter_id": 40,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 187
+  },
+  {
+    "id": 470,
+    "name": "الصفحة 470",
+    "verse_count": 8,
+    "chapter_id": 40,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 188
+  },
+  {
+    "id": 471,
+    "name": "الصفحة 471",
+    "verse_count": 7,
+    "chapter_id": 40,
+    "group_id": 47,
+    "part_id": 24,
+    "quarter_id": 188
+  },
+  {
+    "id": 472,
+    "name": "الصفحة 472",
+    "verse_count": 9,
+    "chapter_id": 40,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 189
+  },
+  {
+    "id": 473,
+    "name": "الصفحة 473",
+    "verse_count": 9,
+    "chapter_id": 40,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 189
+  },
+  {
+    "id": 474,
+    "name": "الصفحة 474",
+    "verse_count": 8,
+    "chapter_id": 40,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 189
+  },
+  {
+    "id": 475,
+    "name": "الصفحة 475",
+    "verse_count": 11,
+    "chapter_id": 40,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 190
+  },
+  {
+    "id": 476,
+    "name": "الصفحة 476",
+    "verse_count": 8,
+    "chapter_id": 40,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 190
+  },
+  {
+    "id": 477,
+    "name": "الصفحة 477",
+    "verse_count": 11,
+    "chapter_id": 41,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 190
+  },
+  {
+    "id": 478,
+    "name": "الصفحة 478",
+    "verse_count": 9,
+    "chapter_id": 41,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 191
+  },
+  {
+    "id": 479,
+    "name": "الصفحة 479",
+    "verse_count": 9,
+    "chapter_id": 41,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 191
+  },
+  {
+    "id": 480,
+    "name": "الصفحة 480",
+    "verse_count": 9,
+    "chapter_id": 41,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 192
+  },
+  {
+    "id": 481,
+    "name": "الصفحة 481",
+    "verse_count": 8,
+    "chapter_id": 41,
+    "group_id": 48,
+    "part_id": 24,
+    "quarter_id": 192
+  },
+  {
+    "id": 482,
+    "name": "الصفحة 482",
+    "verse_count": 8,
+    "chapter_id": 41,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 193
+  },
+  {
+    "id": 483,
+    "name": "الصفحة 483",
+    "verse_count": 10,
+    "chapter_id": 42,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 193
+  },
+  {
+    "id": 484,
+    "name": "الصفحة 484",
+    "verse_count": 5,
+    "chapter_id": 42,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 193
+  },
+  {
+    "id": 485,
+    "name": "الصفحة 485",
+    "verse_count": 7,
+    "chapter_id": 42,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 194
+  },
+  {
+    "id": 486,
+    "name": "الصفحة 486",
+    "verse_count": 9,
+    "chapter_id": 42,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 194
+  },
+  {
+    "id": 487,
+    "name": "الصفحة 487",
+    "verse_count": 13,
+    "chapter_id": 42,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 195
+  },
+  {
+    "id": 488,
+    "name": "الصفحة 488",
+    "verse_count": 7,
+    "chapter_id": 42,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 195
+  },
+  {
+    "id": 489,
+    "name": "الصفحة 489",
+    "verse_count": 12,
+    "chapter_id": 42,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 196
+  },
+  {
+    "id": 490,
+    "name": "الصفحة 490",
+    "verse_count": 12,
+    "chapter_id": 43,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 196
+  },
+  {
+    "id": 491,
+    "name": "الصفحة 491",
+    "verse_count": 11,
+    "chapter_id": 43,
+    "group_id": 49,
+    "part_id": 25,
+    "quarter_id": 196
+  },
+  {
+    "id": 492,
+    "name": "الصفحة 492",
+    "verse_count": 14,
+    "chapter_id": 43,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 197
+  },
+  {
+    "id": 493,
+    "name": "الصفحة 493",
+    "verse_count": 13,
+    "chapter_id": 43,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 197
+  },
+  {
+    "id": 494,
+    "name": "الصفحة 494",
+    "verse_count": 13,
+    "chapter_id": 43,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 198
+  },
+  {
+    "id": 495,
+    "name": "الصفحة 495",
+    "verse_count": 16,
+    "chapter_id": 43,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 198
+  },
+  {
+    "id": 496,
+    "name": "الصفحة 496",
+    "verse_count": 18,
+    "chapter_id": 44,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 198
+  },
+  {
+    "id": 497,
+    "name": "الصفحة 497",
+    "verse_count": 21,
+    "chapter_id": 44,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 199
+  },
+  {
+    "id": 498,
+    "name": "الصفحة 498",
+    "verse_count": 20,
+    "chapter_id": 44,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 199
+  },
+  {
+    "id": 499,
+    "name": "الصفحة 499",
+    "verse_count": 13,
+    "chapter_id": 45,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 199
+  },
+  {
+    "id": 500,
+    "name": "الصفحة 500",
+    "verse_count": 9,
+    "chapter_id": 45,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 200
+  },
+  {
+    "id": 501,
+    "name": "الصفحة 501",
+    "verse_count": 10,
+    "chapter_id": 45,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 200
+  },
+  {
+    "id": 502,
+    "name": "الصفحة 502",
+    "verse_count": 10,
+    "chapter_id": 45,
+    "group_id": 50,
+    "part_id": 25,
+    "quarter_id": 200
+  },
+  {
+    "id": 503,
+    "name": "الصفحة 503",
+    "verse_count": 9,
+    "chapter_id": 46,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 201
+  },
+  {
+    "id": 504,
+    "name": "الصفحة 504",
+    "verse_count": 6,
+    "chapter_id": 46,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 201
+  },
+  {
+    "id": 505,
+    "name": "الصفحة 505",
+    "verse_count": 8,
+    "chapter_id": 46,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 202
+  },
+  {
+    "id": 506,
+    "name": "الصفحة 506",
+    "verse_count": 7,
+    "chapter_id": 46,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 202
+  },
+  {
+    "id": 507,
+    "name": "الصفحة 507",
+    "verse_count": 11,
+    "chapter_id": 47,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 202
+  },
+  {
+    "id": 508,
+    "name": "الصفحة 508",
+    "verse_count": 8,
+    "chapter_id": 47,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 203
+  },
+  {
+    "id": 509,
+    "name": "الصفحة 509",
+    "verse_count": 10,
+    "chapter_id": 47,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 203
+  },
+  {
+    "id": 510,
+    "name": "الصفحة 510",
+    "verse_count": 9,
+    "chapter_id": 47,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 203
+  },
+  {
+    "id": 511,
+    "name": "الصفحة 511",
+    "verse_count": 9,
+    "chapter_id": 48,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 204
+  },
+  {
+    "id": 512,
+    "name": "الصفحة 512",
+    "verse_count": 6,
+    "chapter_id": 48,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 204
+  },
+  {
+    "id": 513,
+    "name": "الصفحة 513",
+    "verse_count": 8,
+    "chapter_id": 48,
+    "group_id": 51,
+    "part_id": 26,
+    "quarter_id": 204
+  },
+  {
+    "id": 514,
+    "name": "الصفحة 514",
+    "verse_count": 5,
+    "chapter_id": 48,
+    "group_id": 52,
+    "part_id": 26,
+    "quarter_id": 205
+  },
+  {
+    "id": 515,
+    "name": "الصفحة 515",
+    "verse_count": 5,
+    "chapter_id": 48,
+    "group_id": 52,
+    "part_id": 26,
+    "quarter_id": 205
+  },
+  {
+    "id": 516,
+    "name": "الصفحة 516",
+    "verse_count": 7,
+    "chapter_id": 49,
+    "group_id": 52,
+    "part_id": 26,
+    "quarter_id": 206
+  },
+  {
+    "id": 517,
+    "name": "الصفحة 517",
+    "verse_count": 7,
+    "chapter_id": 49,
+    "group_id": 52,
+    "part_id": 26,
+    "quarter_id": 206
+  },
+  {
+    "id": 518,
+    "name": "الصفحة 518",
+    "verse_count": 15,
+    "chapter_id": 50,
+    "group_id": 52,
+    "part_id": 26,
+    "quarter_id": 207
+  },
+  {
+    "id": 519,
+    "name": "الصفحة 519",
+    "verse_count": 20,
+    "chapter_id": 50,
+    "group_id": 52,
+    "part_id": 26,
+    "quarter_id": 207
+  },
+  {
+    "id": 520,
+    "name": "الصفحة 520",
+    "verse_count": 16,
+    "chapter_id": 50,
+    "group_id": 52,
+    "part_id": 26,
+    "quarter_id": 208
+  },
+  {
+    "id": 521,
+    "name": "الصفحة 521",
+    "verse_count": 24,
+    "chapter_id": 51,
+    "group_id": 52,
+    "part_id": 26,
+    "quarter_id": 208
+  },
+  {
+    "id": 522,
+    "name": "الصفحة 522",
+    "verse_count": 21,
+    "chapter_id": 51,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 209
+  },
+  {
+    "id": 523,
+    "name": "الصفحة 523",
+    "verse_count": 23,
+    "chapter_id": 51,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 209
+  },
+  {
+    "id": 524,
+    "name": "الصفحة 524",
+    "verse_count": 17,
+    "chapter_id": 52,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 209
+  },
+  {
+    "id": 525,
+    "name": "الصفحة 525",
+    "verse_count": 18,
+    "chapter_id": 52,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 210
+  },
+  {
+    "id": 526,
+    "name": "الصفحة 526",
+    "verse_count": 26,
+    "chapter_id": 53,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 210
+  },
+  {
+    "id": 527,
+    "name": "الصفحة 527",
+    "verse_count": 18,
+    "chapter_id": 53,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 211
+  },
+  {
+    "id": 528,
+    "name": "الصفحة 528",
+    "verse_count": 24,
+    "chapter_id": 53,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 211
+  },
+  {
+    "id": 529,
+    "name": "الصفحة 529",
+    "verse_count": 21,
+    "chapter_id": 54,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 211
+  },
+  {
+    "id": 530,
+    "name": "الصفحة 530",
+    "verse_count": 22,
+    "chapter_id": 54,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 212
+  },
+  {
+    "id": 531,
+    "name": "الصفحة 531",
+    "verse_count": 22,
+    "chapter_id": 54,
+    "group_id": 53,
+    "part_id": 27,
+    "quarter_id": 212
+  },
+  {
+    "id": 532,
+    "name": "الصفحة 532",
+    "verse_count": 24,
+    "chapter_id": 55,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 213
+  },
+  {
+    "id": 533,
+    "name": "الصفحة 533",
+    "verse_count": 27,
+    "chapter_id": 55,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 213
+  },
+  {
+    "id": 534,
+    "name": "الصفحة 534",
+    "verse_count": 27,
+    "chapter_id": 55,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 213
+  },
+  {
+    "id": 535,
+    "name": "الصفحة 535",
+    "verse_count": 34,
+    "chapter_id": 56,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 214
+  },
+  {
+    "id": 536,
+    "name": "الصفحة 536",
+    "verse_count": 26,
+    "chapter_id": 56,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 214
+  },
+  {
+    "id": 537,
+    "name": "الصفحة 537",
+    "verse_count": 23,
+    "chapter_id": 56,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 215
+  },
+  {
+    "id": 538,
+    "name": "الصفحة 538",
+    "verse_count": 8,
+    "chapter_id": 57,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 215
+  },
+  {
+    "id": 539,
+    "name": "الصفحة 539",
+    "verse_count": 7,
+    "chapter_id": 57,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 215
+  },
+  {
+    "id": 540,
+    "name": "الصفحة 540",
+    "verse_count": 6,
+    "chapter_id": 57,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 216
+  },
+  {
+    "id": 541,
+    "name": "الصفحة 541",
+    "verse_count": 5,
+    "chapter_id": 57,
+    "group_id": 54,
+    "part_id": 27,
+    "quarter_id": 216
+  },
+  {
+    "id": 542,
+    "name": "الصفحة 542",
+    "verse_count": 6,
+    "chapter_id": 58,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 217
+  },
+  {
+    "id": 543,
+    "name": "الصفحة 543",
+    "verse_count": 5,
+    "chapter_id": 58,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 217
+  },
+  {
+    "id": 544,
+    "name": "الصفحة 544",
+    "verse_count": 10,
+    "chapter_id": 58,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 217
+  },
+  {
+    "id": 545,
+    "name": "الصفحة 545",
+    "verse_count": 4,
+    "chapter_id": 58,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 218
+  },
+  {
+    "id": 546,
+    "name": "الصفحة 546",
+    "verse_count": 6,
+    "chapter_id": 59,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 218
+  },
+  {
+    "id": 547,
+    "name": "الصفحة 547",
+    "verse_count": 7,
+    "chapter_id": 59,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 218
+  },
+  {
+    "id": 548,
+    "name": "الصفحة 548",
+    "verse_count": 8,
+    "chapter_id": 59,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 219
+  },
+  {
+    "id": 549,
+    "name": "الصفحة 549",
+    "verse_count": 5,
+    "chapter_id": 60,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 219
+  },
+  {
+    "id": 550,
+    "name": "الصفحة 550",
+    "verse_count": 6,
+    "chapter_id": 60,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 219
+  },
+  {
+    "id": 551,
+    "name": "الصفحة 551",
+    "verse_count": 7,
+    "chapter_id": 60,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 220
+  },
+  {
+    "id": 552,
+    "name": "الصفحة 552",
+    "verse_count": 9,
+    "chapter_id": 61,
+    "group_id": 55,
+    "part_id": 28,
+    "quarter_id": 220
+  },
+  {
+    "id": 553,
+    "name": "الصفحة 553",
+    "verse_count": 8,
+    "chapter_id": 62,
+    "group_id": 56,
+    "part_id": 28,
+    "quarter_id": 221
+  },
+  {
+    "id": 554,
+    "name": "الصفحة 554",
+    "verse_count": 7,
+    "chapter_id": 62,
+    "group_id": 56,
+    "part_id": 28,
+    "quarter_id": 221
+  },
+  {
+    "id": 555,
+    "name": "الصفحة 555",
+    "verse_count": 7,
+    "chapter_id": 63,
+    "group_id": 56,
+    "part_id": 28,
+    "quarter_id": 222
+  },
+  {
+    "id": 556,
+    "name": "الصفحة 556",
+    "verse_count": 9,
+    "chapter_id": 64,
+    "group_id": 56,
+    "part_id": 28,
+    "quarter_id": 222
+  },
+  {
+    "id": 557,
+    "name": "الصفحة 557",
+    "verse_count": 9,
+    "chapter_id": 64,
+    "group_id": 56,
+    "part_id": 28,
+    "quarter_id": 222
+  },
+  {
+    "id": 558,
+    "name": "الصفحة 558",
+    "verse_count": 5,
+    "chapter_id": 65,
+    "group_id": 56,
+    "part_id": 28,
+    "quarter_id": 223
+  },
+  {
+    "id": 559,
+    "name": "الصفحة 559",
+    "verse_count": 7,
+    "chapter_id": 65,
+    "group_id": 56,
+    "part_id": 28,
+    "quarter_id": 223
+  },
+  {
+    "id": 560,
+    "name": "الصفحة 560",
+    "verse_count": 7,
+    "chapter_id": 66,
+    "group_id": 56,
+    "part_id": 28,
+    "quarter_id": 224
+  },
+  {
+    "id": 561,
+    "name": "الصفحة 561",
+    "verse_count": 5,
+    "chapter_id": 66,
+    "group_id": 56,
+    "part_id": 28,
+    "quarter_id": 224
+  },
+  {
+    "id": 562,
+    "name": "الصفحة 562",
+    "verse_count": 12,
+    "chapter_id": 67,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 225
+  },
+  {
+    "id": 563,
+    "name": "الصفحة 563",
+    "verse_count": 14,
+    "chapter_id": 67,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 225
+  },
+  {
+    "id": 564,
+    "name": "الصفحة 564",
+    "verse_count": 19,
+    "chapter_id": 67,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 225
+  },
+  {
+    "id": 565,
+    "name": "الصفحة 565",
+    "verse_count": 27,
+    "chapter_id": 68,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 226
+  },
+  {
+    "id": 566,
+    "name": "الصفحة 566",
+    "verse_count": 18,
+    "chapter_id": 68,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 226
+  },
+  {
+    "id": 567,
+    "name": "الصفحة 567",
+    "verse_count": 26,
+    "chapter_id": 69,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 227
+  },
+  {
+    "id": 568,
+    "name": "الصفحة 568",
+    "verse_count": 28,
+    "chapter_id": 69,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 227
+  },
+  {
+    "id": 569,
+    "name": "الصفحة 569",
+    "verse_count": 29,
+    "chapter_id": 70,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 227
+  },
+  {
+    "id": 570,
+    "name": "الصفحة 570",
+    "verse_count": 15,
+    "chapter_id": 70,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 228
+  },
+  {
+    "id": 571,
+    "name": "الصفحة 571",
+    "verse_count": 18,
+    "chapter_id": 71,
+    "group_id": 57,
+    "part_id": 29,
+    "quarter_id": 228
+  },
+  {
+    "id": 572,
+    "name": "الصفحة 572",
+    "verse_count": 13,
+    "chapter_id": 72,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 229
+  },
+  {
+    "id": 573,
+    "name": "الصفحة 573",
+    "verse_count": 15,
+    "chapter_id": 72,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 229
+  },
+  {
+    "id": 574,
+    "name": "الصفحة 574",
+    "verse_count": 19,
+    "chapter_id": 73,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 229
+  },
+  {
+    "id": 575,
+    "name": "الصفحة 575",
+    "verse_count": 18,
+    "chapter_id": 73,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 230
+  },
+  {
+    "id": 576,
+    "name": "الصفحة 576",
+    "verse_count": 30,
+    "chapter_id": 74,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 230
+  },
+  {
+    "id": 577,
+    "name": "الصفحة 577",
+    "verse_count": 28,
+    "chapter_id": 74,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 230
+  },
+  {
+    "id": 578,
+    "name": "الصفحة 578",
+    "verse_count": 26,
+    "chapter_id": 75,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 231
+  },
+  {
+    "id": 579,
+    "name": "الصفحة 579",
+    "verse_count": 20,
+    "chapter_id": 76,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 231
+  },
+  {
+    "id": 580,
+    "name": "الصفحة 580",
+    "verse_count": 25,
+    "chapter_id": 76,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 232
+  },
+  {
+    "id": 581,
+    "name": "الصفحة 581",
+    "verse_count": 31,
+    "chapter_id": 77,
+    "group_id": 58,
+    "part_id": 29,
+    "quarter_id": 232
+  },
+  {
+    "id": 582,
+    "name": "الصفحة 582",
+    "verse_count": 30,
+    "chapter_id": 78,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 233
+  },
+  {
+    "id": 583,
+    "name": "الصفحة 583",
+    "verse_count": 25,
+    "chapter_id": 78,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 233
+  },
+  {
+    "id": 584,
+    "name": "الصفحة 584",
+    "verse_count": 31,
+    "chapter_id": 79,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 233
+  },
+  {
+    "id": 585,
+    "name": "الصفحة 585",
+    "verse_count": 42,
+    "chapter_id": 80,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 234
+  },
+  {
+    "id": 586,
+    "name": "الصفحة 586",
+    "verse_count": 29,
+    "chapter_id": 81,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 234
+  },
+  {
+    "id": 587,
+    "name": "الصفحة 587",
+    "verse_count": 25,
+    "chapter_id": 82,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 235
+  },
+  {
+    "id": 588,
+    "name": "الصفحة 588",
+    "verse_count": 28,
+    "chapter_id": 83,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 235
+  },
+  {
+    "id": 589,
+    "name": "الصفحة 589",
+    "verse_count": 27,
+    "chapter_id": 83,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 235
+  },
+  {
+    "id": 590,
+    "name": "الصفحة 590",
+    "verse_count": 22,
+    "chapter_id": 85,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 236
+  },
+  {
+    "id": 591,
+    "name": "الصفحة 591",
+    "verse_count": 32,
+    "chapter_id": 86,
+    "group_id": 59,
+    "part_id": 30,
+    "quarter_id": 236
+  },
+  {
+    "id": 592,
+    "name": "الصفحة 592",
+    "verse_count": 30,
+    "chapter_id": 87,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 237
+  },
+  {
+    "id": 593,
+    "name": "الصفحة 593",
+    "verse_count": 23,
+    "chapter_id": 89,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 237
+  },
+  {
+    "id": 594,
+    "name": "الصفحة 594",
+    "verse_count": 27,
+    "chapter_id": 89,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 237
+  },
+  {
+    "id": 595,
+    "name": "الصفحة 595",
+    "verse_count": 29,
+    "chapter_id": 91,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 238
+  },
+  {
+    "id": 596,
+    "name": "الصفحة 596",
+    "verse_count": 26,
+    "chapter_id": 92,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 238
+  },
+  {
+    "id": 597,
+    "name": "الصفحة 597",
+    "verse_count": 27,
+    "chapter_id": 95,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 239
+  },
+  {
+    "id": 598,
+    "name": "الصفحة 598",
+    "verse_count": 12,
+    "chapter_id": 97,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 239
+  },
+  {
+    "id": 599,
+    "name": "الصفحة 599",
+    "verse_count": 18,
+    "chapter_id": 98,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 239
+  },
+  {
+    "id": 600,
+    "name": "الصفحة 600",
+    "verse_count": 21,
+    "chapter_id": 100,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 240
+  },
+  {
+    "id": 601,
+    "name": "الصفحة 601",
+    "verse_count": 17,
+    "chapter_id": 103,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 240
+  },
+  {
+    "id": 602,
+    "name": "الصفحة 602",
+    "verse_count": 14,
+    "chapter_id": 106,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 240
+  },
+  {
+    "id": 603,
+    "name": "الصفحة 603",
+    "verse_count": 14,
+    "chapter_id": 109,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 240
+  },
+  {
+    "id": 604,
+    "name": "الصفحة 604",
+    "verse_count": 15,
+    "chapter_id": 112,
+    "group_id": 60,
+    "part_id": 30,
+    "quarter_id": 240
+  }
+]

@@ -3,128 +3,149 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Bun](https://img.shields.io/badge/Bun-%23000000?style=flat&logo=bun&logoColor=white)](https://bun.sh/)
 
-一个基于 **Model Context Protocol (MCP)** 的文件操作服务器，提供文件统计、列表查询和图片压缩功能。
+A **Model Context Protocol (MCP)** based file operation server, providing file statistics, list queries, image compression, and various system utilities.
 
-## ✨ 功能特性
+## ✨ Features
 
-- 📊 **文件统计** - 统计指定文件夹中的文件数量
-- 📋 **文件列表** - 获取文件夹中所有文件的详细信息
-- 🖼️ **图片压缩** - 高质量图片压缩，支持多种格式
-- 🗜️ **文件压缩** - 创建ZIP、TAR、TAR.GZ格式的压缩文件
-- 📦 **文件解压** - 解压ZIP、TAR、TAR.GZ格式的压缩文件
-- 📂 **文件复制** - 复制文件或文件夹到指定位置
-- 🔄 **文件移动** - 移动文件或文件夹到指定位置
-- 📄 **PDF合并** - 将多个PDF文件合并成一个
-- ✂️ **PDF拆分** - 将PDF文件按页面或范围拆分
-- 🖼️ **PDF转图片** - 将PDF页面转换为JPEG/PNG图片
-- 🔒 **安全可靠** - 完整的错误处理和参数验证
-- ⚡ **高性能** - 基于 Node.js 和 TypeScript 构建
+- 📊 **File Statistics** - Count files in a specified folder
+- 📋 **File Listing** - Get detailed information of all files in a folder
+- 🖼️ **Image Compression** - High-quality image compression, supporting multiple formats
+- 🗜️ **File Compression** - Create ZIP, TAR, TAR.GZ archive files
+- 📦 **File Extraction** - Extract ZIP, TAR, TAR.GZ archive files
+- 📂 **File Copy** - Copy files or folders to a specified location
+- 🔄 **File Move** - Move files or folders to a specified location
+- 📄 **PDF Merge** - Merge multiple PDF files into one
+- ✂️ **PDF Split** - Split PDF files by page or range
+- 🖼️ **PDF to Image** - Convert PDF pages to JPEG/PNG images
+- 🔒 **Secure & Reliable** - Comprehensive error handling and parameter validation
+- ⚡ **High Performance** - Built with TypeScript and powered by **Bun** for speed.
 
-## 🛠️ 技术栈
+## 🛠️ Technology Stack
 
-- **TypeScript** - 类型安全的 JavaScript
-- **MCP SDK** - Model Context Protocol 官方 SDK
-- **Sharp** - 高性能图像处理库
-- **PDF-lib** - 纯JavaScript PDF处理库，支持合并拆分
-- **PDF2pic** - PDF转图片转换工具
-- **Mammoth** - Word文档处理库
-- **Puppeteer** - 无头浏览器，用于PDF生成
-- **Archiver** - 文件压缩库，支持ZIP、TAR等格式
-- **Extract-Zip** - ZIP文件解压库
-- **TAR** - TAR格式文件处理库
-- **fs-extra** - 增强的文件系统操作
-- **Zod** - TypeScript 优先的数据验证
+- **TypeScript** - Type-safe JavaScript
+- **Bun** - High-performance JavaScript runtime, used for running the server.
+- **MCP SDK** - Official Model Context Protocol SDK
+- **Sharp** - High-performance image processing library
+- **PDF-lib** - Pure JavaScript PDF processing library, supports merging and splitting
+- **PDF2pic** - PDF to image conversion tool
+- **Mammoth** - Word document processing library
+- **Puppeteer** - Headless browser, used for PDF generation
+- **Archiver** - File compression library, supports ZIP, TAR, etc.
+- **Extract-Zip** - ZIP file extraction library
+- **TAR** - TAR format file processing library
+- **fs-extra** - Enhanced file system operations
+- **Zod** - TypeScript-first data validation
 
-## 📦 安装
+## 📦 Installation
 
-### 环境要求
+### Environment Requirements
 
-- Node.js >= 18.0.0
-- pnpm (推荐) 或 npm
+- Node.js >= 18.0.0 (for `pnpm` build steps)
+- **Bun** (recommended for running the server)
+- pnpm (recommended for package installation and build)
 
-### 克隆项目
+### Clone Project
 
 ```bash
 git clone https://github.com/lxKylin/file-operation-mcp.git
 cd file-operation-mcp
 ```
 
-### 安装依赖
+### Install Dependencies
 
 ```bash
-pnpm install
+bun install # Use Bun for faster installation
+pnpm install # (Alternative if Bun is not preferred, or for specific build dependencies)
 ```
 
-### 构建项目
+### Build Project
 
 ```bash
 pnpm build
+## ⚙️ Configuration
+
+### Environment Variables
+
+| Variable | Description | Default | Example |
+|----------|-------------|---------|---------|
+| `TIME_LIMIT` | Default time limit for operations (seconds) | `120` | `300` |
+| `MAX_TIME_LIMIT` | Maximum allowed time limit (seconds) | `600` | `1800` |
+
+### Example Usage
+
+```bash
+# Set custom time limit (5 minutes)
+TIME_LIMIT=300 bun run start
+
+# Set maximum time limit (30 minutes)
+MAX_TIME_LIMIT=1800 bun run start
 ```
 
-## 🔌 传输方式对比
+## 🔌 Transport Method Comparison
 
-本项目支持两种MCP传输方式，您可以根据使用场景选择合适的方式：
+This project supports two MCP transport methods. You can choose the appropriate method based on your usage scenario:
 
-### 📊 Stdio vs SSE 对比表
+### 📊 Stdio vs SSE Comparison Table
 
-| 特性 | Stdio | SSE |
-|------|-------|-----|
-| **传输协议** | 进程间通信 (IPC) | HTTP/HTTPS |
-| **连接方式** | stdin/stdout | Server-Sent Events |
-| **多客户端支持** | ❌ 1对1连接 | ✅ 多对1连接 |
-| **远程访问** | ❌ 仅本地 | ✅ 支持远程 |
-| **部署复杂度** | ✅ 简单 | ❌ 需要HTTP服务器 |
-| **资源占用** | ✅ 低 | ❌ 相对高 |
-| **调试便利性** | ❌ 困难 | ✅ 容易（HTTP工具） |
-| **网络穿透** | ❌ 不支持 | ✅ 支持 |
-| **负载均衡** | ❌ 不支持 | ✅ 支持 |
-| **监控能力** | ❌ 有限 | ✅ 丰富（健康检查等） |
-| **延迟** | ✅ 极低 (~1-5ms) | ❌ 略高 (~10-50ms) |
+| Feature | Stdio | SSE |
+|---|---|---|
+| **Transfer Protocol** | Inter-process Communication (IPC) | HTTP/HTTPS |
+| **Connection Method** | stdin/stdout | Server-Sent Events |
+| **Multi-client Support** | ❌ 1-to-1 connection | ✅ Many-to-1 connection |
+| **Remote Access** | ❌ Local only | ✅ Supported |
+| **Deployment Complexity** | ✅ Simple | ❌ Requires HTTP server |
+| **Resource Usage** | ✅ Low | ❌ Relatively higher |
+| **Debugging Convenience** | ❌ Difficult | ✅ Easy (HTTP tools) |
+| **Network Traversal** | ❌ Not supported | ✅ Supported |
+| **Load Balancing** | ❌ Not supported | ✅ Supported |
+| **Monitoring Capabilities** | ❌ Limited | ✅ Rich (health checks, etc.) |
+| **Latency** | ✅ Very Low (~1-5ms) | ❌ Slightly Higher (~10-50ms) |
 
-### 🎯 使用场景推荐
+### 🎯 Recommended Use Cases
 
-#### 选择 Stdio 当您需要：
-- 🏠 **本地开发**: 简单的个人桌面工具
-- 🔒 **单用户**: 仅自己使用的应用
-- ⚡ **低延迟**: 对响应时间要求极高
-- 📦 **简单部署**: 不想配置HTTP服务器
-- 💾 **资源节约**: 系统资源有限
+#### Choose Stdio if you need:
+- 🏠 **Local Development**: Simple personal desktop tools
+- 🔒 **Single User**: Applications for personal use only
+- ⚡ **Low Latency**: Extremely high response time requirements
+- 📦 **Simple Deployment**: Don't want to configure an HTTP server
+- 💾 **Resource Saving**: Limited system resources
 
-#### 选择 SSE 当您需要：
-- 🌐 **远程访问**: 通过网络连接服务器
-- 👥 **多用户**: 团队共享的服务器
-- 🔄 **高可用性**: 需要负载均衡和故障转移
-- 🐛 **便于调试**: 开发阶段需要方便的调试工具
-- 📈 **可扩展性**: 未来可能需要横向扩展
-- 🔍 **监控需求**: 需要详细的服务监控
+#### Choose SSE if you need:
+- 🌐 **Remote Access**: Connect to the server over a network
+- 👥 **Multi-user**: Team-shared server
+- 🔄 **High Availability**: Requires load balancing and failover
+- 🐛 **Easy Debugging**: Convenient debugging tools during development
+- 📈 **Scalability**: May need horizontal scaling in the future
+- 🔍 **Monitoring Needs**: Requires detailed service monitoring
 
-### 🔧 性能对比
+### 🔧 Performance Comparison
 
-#### Stdio 架构
+#### Stdio Architecture
 ```
-客户端 ←→ 服务器进程 (直接IPC)
-延迟: 1-5ms | 内存: 低 | CPU: 低
-```
-
-#### SSE 架构  
-```
-客户端 ←→ HTTP服务器 ←→ MCP服务器
-延迟: 10-50ms | 内存: 中等 | CPU: 中等
+Client <─> Server Process (Direct IPC)
+Latency: 1-5ms | Memory: Low | CPU: Low
 ```
 
-### 🛠️ 代码差异示例
+#### SSE Architecture  
+```
+Client <─> HTTP Server <─> MCP Server
+Latency: 10-50ms | Memory: Medium | CPU: Medium
+```
 
-#### Stdio 启动方式
+### 🛠️ Code Difference Example
+
+#### Stdio Startup
 ```typescript
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 
 const transport = new StdioServerTransport();
 await server.connect(transport);
-console.error('Stdio MCP服务器已启动');
+console.error('Stdio MCP server started');
 ```
 
-#### SSE 启动方式
+#### SSE Startup
 ```typescript
 import { SSEServerTransport } from '@modelcontextprotocol/sdk/server/sse.js';
 import express from 'express';
@@ -136,25 +157,23 @@ app.get('/sse', async (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.error('SSE MCP服务器已启动在端口 3000');
+  console.error('SSE MCP server started on port 3000');
 });
 ```
 
-> 💡 **推荐**: 如果您是个人用户且只需要本地使用，选择 **Stdio**；如果需要团队协作或远程访问，选择 **SSE**。
+> 💡 **Recommendation**: If you are a single user and only need local use, choose **Stdio**; if you need team collaboration or remote access, choose **SSE**.
 
----
+## ⚙️ Stdio Configuration
 
-## ⚙️ Stdio配置
+### Claude Desktop Configuration
 
-### Claude Desktop 配置
+Add the following configuration to Claude Desktop's configuration file:
 
-将以下配置添加到 Claude Desktop 的配置文件中：
-
-**配置文件位置：**
+**Configuration File Location:**
 - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 - **Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
 
-**配置内容：**
+**Configuration Content:**
 ```json
 {
   "mcpServers": {
@@ -170,9 +189,9 @@ app.listen(3000, () => {
 }
 ```
 
-> ⚠️ **注意**: 请将 `path/to/file-operation-mcp` 替换为实际的项目路径
+> ⚠️ **Note**: Please replace `path/to/file-operation-mcp` with the actual project path
 
-### Cursor IDE 配置
+### Cursor IDE Configuration
 
 ```json
 {
@@ -185,55 +204,42 @@ app.listen(3000, () => {
 }
 ```
 
-## ⚙️ SSE配置
+## ⚙️ SSE Configuration
 
-### 启动SSE服务器
+### Starting the SSE Server
 
-首先启动HTTP服务器：
-
-```bash
-# 启动服务器
-pnpm start
-# 或
-node dist/index.js
-```
-
-服务器启动后会显示：
-```
-MCP文件操作服务器已启动在端口 3000
-SSE端点: http://localhost:3000/sse
-健康检查: http://localhost:3000/health
-```
-
-### 验证服务器状态
+First, start the HTTP server:
 
 ```bash
-# 检查服务器健康状态
+bun start
+# Or using pnpm (less recommended for runtime due to Bun's performance)
+```
+The server will be available at:
+- Health check: http://localhost:3000/health
+- MCP endpoint: http://localhost:3000/sse
+
+##  Configuration
+
+### Environment Variables
+
+| Variable | Description | Default | Example |
+|----------|-------------|---------|---------|
+| `TIME_LIMIT` | Default time limit for operations (seconds) | `120` | `300` |
+| `MAX_TIME_LIMIT` | Maximum allowed time limit (seconds) | `600` | `1800` |
+# Check server health status
 curl http://localhost:3000/health
 
-# 返回示例
+# Example response
 {
   "status": "ok",
-  "message": "MCP文件操作服务器运行中",
+  "message": "MCP File Operation Server is running",
   "timestamp": "2024-01-01T12:00:00.000Z"
 }
 ```
 
-### Claude Desktop 配置
+### Claude Desktop Configuration
 
-将以下配置添加到 Claude Desktop 的配置文件中：
-
-```json
-{
-  "mcpServers": {
-    "file-operation-mcp": {
-      "url": "http://localhost:3000/sse"
-    }
-  }
-}
-```
-
-### Cursor IDE 配置
+Add the following configuration to Claude Desktop's configuration file:
 
 ```json
 {
@@ -245,452 +251,585 @@ curl http://localhost:3000/health
 }
 ```
 
-### SSE端点说明
+### Cursor IDE Configuration
 
-- **SSE连接**: `http://localhost:3000/sse` - 主要的MCP连接端点
-- **消息处理**: `http://localhost:3000/messages` - 处理JSON-RPC消息
-- **健康检查**: `http://localhost:3000/health` - 服务器状态检查
-- **端口配置**: 可通过环境变量 `PORT` 修改，默认为 3000
-
-> ⚠️ **注意**: SSE模式需要先手动启动服务器，然后再配置客户端连接。
-
-## 🚀 使用方法
-
-配置完成后重启 Claude Desktop，即可在对话中使用以下功能：
-
-### 1. 文件统计 (count-files)
-
-统计指定文件夹中的文件数量，默认统计桌面文件。
-
-**参数：**
-- `folderPath` (可选): 文件夹路径，默认为桌面
-
-**示例：**
-```
-请帮我统计一下桌面上有多少个文件
-```
-```
-请统计 /Users/username/Documents 文件夹中的文件数量
+```json
+{
+  "mcpServers": {
+    "file-operation-mcp": {
+      "url": "http://localhost:3000/sse"
+    }
+  }
+}
 ```
 
-### 2. 文件列表 (list-files)
+### SSE Endpoint Description
 
-获取指定文件夹中所有文件的详细信息，包括文件名、类型和大小。
+- **SSE Connection**: `http://localhost:3000/sse` - Primary MCP connection endpoint
+- **Message Handling**: `http://localhost:3000/messages` - Handles JSON-RPC messages
+- **Health Check**: `http://localhost:3000/health` - Server status check
+- **Port Configuration**: Can be modified via `PORT` environment variable, defaults to 3000
 
-**参数：**
-- `folderPath` (可选): 文件夹路径，默认为桌面
-- `includeHidden` (可选): 是否包含隐藏文件，默认为 false
+> ⚠️ **Note**: SSE mode requires manual server startup first, then client connection configuration.
 
-**示例：**
+## 🚀 Usage
+
+After configuration, restart Claude Desktop to use the following features in your conversations:
+
+### 1. File Counting (count-files)
+
+Counts the number of files in a specified folder, defaults to desktop files.
+
+**Parameters:**
+- `folderPath` (Optional): Folder path, defaults to desktop
+
+**Example:**
 ```
-请列出桌面上的所有文件
+Please count how many files are on my desktop
 ```
 ```
-请显示 /Users/username/Downloads 文件夹中的内容，包括隐藏文件
+Please count the number of files in /Users/username/Documents folder
 ```
 
-### 3. 图片压缩 (compress-image)
+### 2. File Listing (list-files)
 
-压缩指定的图片文件，支持多种格式和自定义参数。
+Gets detailed information of all files in a specified folder, including filename, type, and size.
 
-**参数：**
-- `imagePath`: 图片文件路径 (必需)
-- `quality` (可选): 压缩质量 (1-100)，默认为 80
-- `maxWidth` (可选): 最大宽度限制
-- `maxHeight` (可选): 最大高度限制  
-- `outputPath` (可选): 输出路径，默认为原文件名加 `_compressed` 后缀
+**Parameters:**
+- `folderPath` (Optional): Folder path, defaults to desktop
+- `includeHidden` (Optional): Whether to include hidden files, defaults to false
 
-**支持格式：**
+**Example:**
+```
+Please list all files on my desktop
+```
+```
+Please show the contents of /Users/username/Downloads folder, including hidden files
+```
+
+### 3. Image Compression (compress-image)
+
+Compresses specified image files, supports various formats and custom parameters.
+
+**Parameters:**
+- `imagePath`: Image file path (Required)
+- `quality` (Optional): Compression quality (1-100), defaults to 80
+- `maxWidth` (Optional): Maximum width limit
+- `maxHeight` (Optional): Maximum height limit  
+- `outputPath` (Optional): Output path, defaults to original filename with `_compressed` suffix
+
+**Supported Formats:**
 - JPEG/JPG
 - PNG
 - WebP
 - TIFF
 - GIF
 
-**示例：**
+**Example:**
 ```
-请将 /Users/username/Desktop/photo.jpg 压缩到 60% 质量
-```
-```
-请压缩图片 /path/to/image.png，限制最大宽度为 1920 像素
-```
-
-### 4. 文件压缩 (create-archive)
-
-将文件或文件夹压缩为ZIP、TAR或TAR.GZ格式。
-
-**参数：**
-- `files`: 要压缩的文件/文件夹路径数组 (必需)
-- `outputPath`: 输出压缩文件路径 (必需)
-- `format` (可选): 压缩格式 (zip, tar, tar.gz)，默认为zip
-- `compressionLevel` (可选): 压缩级别 (0-9)，默认为6
-
-**支持格式：**
-- **ZIP** - 通用压缩格式，兼容性最好
-- **TAR** - Unix/Linux常用格式，无压缩
-- **TAR.GZ** - TAR格式+GZIP压缩，压缩率高
-
-**示例：**
-```
-请将 /Users/username/Documents 文件夹压缩为ZIP格式
+Please compress /Users/username/Desktop/photo.jpg to 60% quality
 ```
 ```
-请压缩文件 ["/path/file1.txt", "/path/file2.txt"] 为 /backup/files.tar.gz 格式
-```
-```
-请将项目文件夹压缩为高压缩级别的ZIP包
+Please compress image /path/to/image.png, limit max width to 1920 pixels
 ```
 
-### 5. 文件解压 (extract-archive)
+### 4. File Compression (create-archive)
 
-解压ZIP、TAR或TAR.GZ文件到指定目录。
+Compresses files or folders into ZIP, TAR, or TAR.GZ format.
 
-**参数：**
-- `archivePath`: 压缩文件路径 (必需)
-- `extractTo`: 解压目标目录 (必需)
-- `overwrite` (可选): 是否覆盖已存在文件，默认为false
+**Parameters:**
+- `files`: Array of file/folder paths to compress (Required)
+- `outputPath`: Output archive file path (Required)
+- `format` (Optional): Compression format (zip, tar, tar.gz), defaults to zip
+- `compressionLevel` (Optional): Compression level (0-9), defaults to 6
 
-**支持格式：**
-- **ZIP** - .zip文件
-- **TAR** - .tar文件
-- **TAR.GZ** - .tar.gz、.tgz文件
+**Supported Formats:**
+- **ZIP** - General compression format, best compatibility
+- **TAR** - Common Unix/Linux format, no compression
+- **TAR.GZ** - TAR format + GZIP compression, high compression ratio
 
-**示例：**
+**Example:**
 ```
-请解压 /Downloads/archive.zip 到 /Projects/ 目录
-```
-```
-请解压 /backup/files.tar.gz 到 /restore/ 并覆盖现有文件
+Please compress /Users/username/Documents folder to ZIP format
 ```
 ```
-请将压缩包解压到临时文件夹
-```
-
-**注意事项：**
-- 解压前会检查目标目录是否为空（除非设置overwrite=true）
-- 支持自动检测压缩格式
-- 会显示解压文件数量和总大小
-- 解压过程中会保持原始文件结构
-
-### 6. 文件复制 (copy-files)
-
-复制文件或文件夹到指定位置，保持原文件不变。
-
-**参数：**
-- `sourcePath`: 源文件/文件夹路径 (必需)
-- `targetPath`: 目标路径 (必需)
-- `overwrite` (可选): 是否覆盖已存在文件，默认为false
-- `preserveTimestamps` (可选): 是否保留时间戳，默认为true
-
-**特性：**
-- 支持文件和文件夹复制
-- 递归复制整个目录结构
-- 可选择保留原始时间戳
-- 安全检查防止意外覆盖
-- 显示复制详情和文件统计
-
-**示例：**
-```
-请复制 /Users/username/Documents/report.pdf 到 /backup/ 目录
+Please compress files ["/path/file1.txt", "/path/file2.txt"] to /backup/files.tar.gz format
 ```
 ```
-请复制整个项目文件夹到备份目录，保留时间戳
-```
-```
-请复制文件并覆盖已存在的目标文件
+Please compress the project folder into a high-compression ZIP package
 ```
 
-### 7. 文件移动 (move-files)
+### 5. File Extraction (extract-archive)
 
-移动文件或文件夹到指定位置，相当于剪切操作。
+Extracts ZIP, TAR, or TAR.GZ files to a specified directory.
 
-**参数：**
-- `sourcePath`: 源文件/文件夹路径 (必需)
-- `targetPath`: 目标路径 (必需)
-- `overwrite` (可选): 是否覆盖已存在文件，默认为false
+**Parameters:**
+- `archivePath`: Archive file path (Required)
+- `extractTo`: Target directory for extraction (Required)
+- `overwrite` (Optional): Whether to overwrite existing files, defaults to false
 
-**特性：**
-- 支持文件和文件夹移动
-- 原子操作，确保数据安全
-- 自动验证移动完成
-- 防止源路径和目标路径相同
-- 跨文件系统移动支持
+**Supported Formats:**
+- **ZIP** - .zip file
+- **TAR** - .tar file
+- **TAR.GZ** - .tar.gz, .tgz files
 
-**示例：**
+**Example:**
 ```
-请移动 /Downloads/archive.zip 到 /Projects/ 目录
-```
-```
-请将临时文件夹移动到永久存储位置
+Please extract /Downloads/archive.zip to /Projects/ directory
 ```
 ```
-请移动文件并覆盖目标位置的同名文件
+Please extract /backup/files.tar.gz to /restore/ and overwrite existing files
+```
+```
+Please extract the archive to a temporary folder
 ```
 
-**注意事项：**
-- 移动操作会删除原始文件/文件夹
-- 支持跨分区/驱动器移动
-- 移动前会验证目标目录权限
-- 操作完成后会验证结果
+**Notes:**
+- Checks if the target directory is empty before extraction (unless overwrite=true)
+- Supports automatic detection of compression format
+- Displays extracted file count and total size
+- Maintains original file structure during extraction
 
-### 8. PDF合并 (merge-pdf)
+### 6. File Copy (copy-files)
 
-将多个PDF文件合并成一个完整的PDF文档。
+Copies a file or folder to a specified location, keeping the original file unchanged.
 
-**参数：**
-- `inputPaths`: PDF文件路径数组 (必需)
-- `outputPath`: 输出PDF文件路径 (必需)
-- `title` (可选): 合并后PDF的标题
+**Parameters:**
+- `sourcePath`: Source file/folder path (Required)
+- `targetPath`: Target path (Required)
+- `overwrite` (Optional): Whether to overwrite existing files, defaults to false
+- `preserveTimestamps` (Optional): Whether to preserve timestamps, defaults to true
 
-**特性：**
-- 支持合并任意数量的PDF文件
-- 保持原始页面格式和质量
-- 自动设置文档元数据
-- 详细的合并统计报告
-- 自动添加.pdf扩展名
+**Features:**
+- Supports file and folder copying
+- Recursively copies entire directory structure
+- Option to preserve original timestamps
+- Security checks prevent accidental overwrites
+- Displays copy details and file statistics
 
-**示例：**
+**Example:**
 ```
-请合并这些PDF文件：["/reports/report1.pdf", "/reports/report2.pdf"] 到 "/merged/combined_report.pdf"
-```
-```
-请将项目文档合并，标题设为 "完整项目文档"
-```
-
-### 9. PDF拆分 (split-pdf)
-
-将PDF文件拆分成多个独立的文件，支持按页面或自定义范围拆分。
-
-**参数：**
-- `inputPath`: 输入PDF文件路径 (必需)
-- `outputDir`: 输出目录 (必需)
-- `splitMode` (可选): 拆分模式 - `pages`(每页一个文件) 或 `ranges`(按范围拆分)，默认pages
-- `ranges` (可选): 页面范围数组，如 ["1-3", "4-6"]，仅ranges模式需要
-- `prefix` (可选): 输出文件名前缀，默认为原文件名
-
-**特性：**
-- 两种拆分模式：逐页拆分或范围拆分
-- 灵活的页面范围设置
-- 保持原始页面格式
-- 自动文件命名和编号
-- 详细的拆分统计
-
-**示例：**
-```
-请将 "/documents/manual.pdf" 按页面拆分到 "/pages/" 目录
+Please copy /Users/username/Documents/report.pdf to /backup/ directory
 ```
 ```
-请将PDF按范围拆分：["1-5", "6-10", "11-15"]
+Please copy the entire project folder to a backup directory, preserving timestamps
 ```
 ```
-请拆分PDF的第3页到第8页为单独文件
+Please copy the file and overwrite the existing target file
 ```
-- 拆分前
+
+### 7. File Move (move-files)
+
+Moves a file or folder to a specified location, equivalent to a cut operation.
+
+**Parameters:**
+- `sourcePath`: Source file/folder path (Required)
+- `targetPath`: Target path (Required)
+- `overwrite` (Optional): Whether to overwrite existing files, defaults to false
+
+**Features:**
+- Supports file and folder moving
+- Atomic operation, ensuring data integrity
+- Automatic verification of move completion
+- Prevents source and target paths from being the same
+- Cross-filesystem move support
+
+**Example:**
+```
+Please move /Downloads/archive.zip to /Projects/ directory
+```
+```
+Please move the temporary folder to a permanent storage location
+```
+```
+Please move the file and overwrite the same-named file at the target location
+```
+
+**Notes:**
+- Move operation deletes the original file/folder
+- Supports cross-partition/drive moves
+- Verifies target directory permissions before moving
+- Validates results after operation completion
+
+### 8. PDF Merge (merge-pdf)
+
+Merges multiple PDF files into a single complete PDF document.
+
+**Parameters:**
+- `inputPaths`: Array of PDF file paths (Required)
+- `outputPath`: Output PDF file path (Required)
+- `title` (Optional): Title of the merged PDF
+
+**Features:**
+- Supports merging any number of PDF files
+- Maintains original page format and quality
+- Automatically sets document metadata
+- Detailed merge statistics report
+- Automatically adds .pdf extension
+
+**Example:**
+```
+Please merge these PDF files: ["/reports/report1.pdf", "/reports/report2.pdf"] to "/merged/combined_report.pdf"
+```
+```
+Please merge project documents, set title to "Complete Project Documentation"
+```
+
+### 9. PDF Split (split-pdf)
+
+Splits a PDF file into multiple independent files, supporting splitting by page or custom range.
+
+**Parameters:**
+- `inputPath`: Input PDF file path (Required)
+- `outputDir`: Output directory (Required)
+- `splitMode` (Optional): Split mode - `pages` (one file per page) or `ranges` (split by range), defaults to pages
+- `ranges` (Optional): Array of page ranges, e.g., ["1-3", "4-6"], only required for ranges mode
+- `prefix` (Optional): Output filename prefix, defaults to original filename
+
+**Features:**
+- Two splitting modes: page-by-page splitting or range splitting
+- Flexible page range settings
+- Maintains original page format
+- Automatic file naming and numbering
+- Detailed splitting statistics
+
+**Example:**
+```
+Please split "/documents/manual.pdf" by page to "/pages/" directory
+```
+```
+Please split the PDF by ranges: ["1-5", "6-10", "11-15"]
+```
+```
+Please split pages 3 to 8 of the PDF into separate files
+```
+- Before splitting
 
 ![](./src/assets/images/split-pdf-all.png)
 
-- 拆分后
+- After splitting
 
 ![](./src/assets/images/split-pdf-1-5.png)
 
-### 10. PDF转图片 (pdf-to-image)
+### 10. PDF to Image (pdf-to-image)
 
-将PDF页面转换为高质量的图片文件，支持多种格式和自定义设置。
+Converts PDF pages to high-quality image files, supports various formats and custom settings.
 
-**参数：**
-- `inputPath`: 输入PDF文件路径 (必需)
-- `outputDir`: 输出目录 (必需)
-- `format` (可选): 图片格式 - `jpeg` 或 `png`，默认jpeg
-- `quality` (可选): 图片质量 1-100，默认80
-- `dpi` (可选): 分辨率DPI 50-600，默认150
-- `pages` (可选): 页面范围，如 "1-3" 或 "1,3,5"，默认全部页面
-- `prefix` (可选): 输出文件名前缀
+**Parameters:**
+- `inputPath`: Input PDF file path (Required)
+- `outputDir`: Output directory (Required)
+- `format` (Optional): Image format - `jpeg` or `png`, defaults to jpeg
+- `quality` (Optional): Image quality 1-100, defaults to 80
+- `dpi` (Optional): Resolution DPI 50-600, defaults to 150
+- `pages` (Optional): Page range, e.g., "1-3" or "1,3,5", defaults to all pages
+- `prefix` (Optional): Output filename prefix
 
-**特性：**
-- 支持JPEG和PNG格式
-- 可调节图片质量和分辨率
-- 灵活的页面选择（范围、列表、单页）
-- 批量处理所有页面
-- 详细的转换统计信息
+**Features:**
+- Supports JPEG and PNG formats
+- Adjustable image quality and resolution
+- Flexible page selection (range, list, single page)
+- Batch processing of all pages
+- Detailed conversion statistics
 
-**示例：**
+**Example:**
 ```
-请将 "/docs/presentation.pdf" 转换为PNG图片，分辨率300 DPI
-```
-```
-请只转换PDF的第1、3、5页为JPEG图片
+Please convert "/docs/presentation.pdf" to PNG image, 300 DPI resolution
 ```
 ```
-请将PDF第10-20页转换为高质量图片
+Please convert only pages 1, 3, and 5 of the PDF to JPEG images
+```
+```
+Please convert PDF pages 10-20 to high-quality images
 ```
 
-**注意事项：**
-- PDF转图片需要系统支持ImageMagick或GraphicsMagick
-- 高分辨率设置会增加文件大小和处理时间
-- PNG格式文件较大但质量更好
-- 分辨率推荐：屏幕显示150 DPI，打印300 DPI
+**Notes:**
+- PDF to image conversion requires system support for ImageMagick or GraphicsMagick
+- High resolution settings will increase file size and processing time
+- PNG format files are larger but higher quality
+- Recommended resolution: 150 DPI for screen display, 300 DPI for printing
 
-## 📸 功能演示
+### 11. SQLite Database Operations (query-sqlite)
 
-### 文件列表查询
-默认查询桌面文件，也可指定具体路径：
+Performs various SQLite database operations including creating databases, executing queries, importing/exporting CSV, getting schema info, and more.
 
-![文件列表查询](./src/assets/images/list-files.png)
+**Parameters:**
+- `database_path`: SQLite database file path (Required)
+- `operation`: Operation type (Required) - create_db, execute_query, import_csv, export_csv, get_schema, drop_table, backup, restore, transaction, get_stats
+- `query` (Optional): SQL query statement (for execute_query and transaction operations)
+- `table_name` (Optional): Table name (for drop_table, export_csv, etc. operations)
+- `csv_path` (Optional): CSV file path (for import_csv and export_csv operations)
+- `backup_path` (Optional): Backup file path (for backup and restore operations)
 
-### 文件数量统计
-快速统计指定目录的文件数量：
+**Features:**
+- Create new SQLite databases
+- Execute SELECT, INSERT, UPDATE, DELETE and other SQL queries
+- Import data from CSV files to database tables
+- Export database tables as CSV files
+- Get database table schema information
+- Delete database tables
+- Backup and restore database files
+- Execute transactions to ensure data consistency
+- Get database statistics
 
-![文件数量统计](./src/assets/images/count-files.png)
+**Example:**
+```
+Please create a new SQLite database /data/mydb.sqlite
+```
+```
+Please execute query "SELECT * FROM users WHERE age > 18" in /data/mydb.sqlite database
+```
+```
+Please import /data/users.csv into /data/mydb.sqlite database
+```
+```
+Please backup /data/mydb.sqlite database to /backup/mydb_backup.sqlite
+```
 
-### 图片压缩功能
-高质量图片压缩，支持自定义参数：
+### 12. Advanced File Compression (compress-files)
 
-![图片压缩功能](./src/assets/images/compress-image.png)
+Compresses or decompresses files with various formats and options including ZIP, TAR, GZIP, BZIP2.
 
-![压缩效果展示](./src/assets/images/compress-image-demo.png)
+**Parameters:**
+- `source_paths`: File or directory paths to compress (Required, space-separated)
+- `destination_path`: Output archive file path (Required)
+- `operation`: Operation type (Required) - compress, decompress, info, update, test, encode
+- `format` (Optional): Compression format - zip, tar, gzip, bzip2, defaults to zip
+- `compression_level` (Optional): Compression level 0-9, defaults to 6
+- `password` (Optional): Password for ZIP archives
+- `exclude_patterns` (Optional): File/directory patterns to exclude (space-separated)
+- `encoding` (Optional): Filename encoding
 
-## 🔧 开发
+**Features:**
+- Supports multiple compression formats (ZIP, TAR, GZIP, BZIP2)
+- Adjustable compression levels
+- ZIP archive password protection
+- File exclusion patterns
+- View compressed file information
+- Test compressed file integrity
+- Decompress archive files
 
-### 开发模式
+**Example:**
+```
+Please compress /Documents/ and /Projects/ directories to /backup/archive.zip
+```
+```
+Please create /data/files.tar.gz archive with highest compression level
+```
+```
+Please decompress /backup/archive.zip to /restore/ directory
+```
+```
+Please test the integrity of /backup/archive.zip
+```
+
+### 13. Text Processing (process-text)
+
+Performs various text processing operations including sorting lines, removing duplicates, filtering patterns, replacing text, counting words/lines, and more.
+
+**Parameters:**
+- `file_path`: Path to the text file to process (Required)
+- `operation`: Operation type (Required) - sort, dedupe, filter, replace, count, convert_encoding, split, merge, case_transform, prefix_suffix, tabs_spaces, trim
+- `sort_order` (Optional): Sort order asc/desc (for sort operation)
+- `filter_pattern` (Optional): Filter pattern (for filter operation)
+- `is_regex` (Optional): Whether it's a regex, defaults to false (for filter and replace operations)
+- `find_text` (Optional): Text to find (for replace operation)
+- `replace_text` (Optional): Replacement text (for replace operation)
+- `merge_paths` (Optional): File paths to merge (for merge operation)
+- `case_option` (Optional): Case transformation option upper/lower/capitalize (for case_transform operation)
+- `prefix` (Optional): Line prefix (for prefix_suffix operation)
+- `suffix` (Optional): Line suffix (for prefix_suffix operation)
+- `tab_size` (Optional): Tab size, defaults to 4 (for tabs_spaces operation)
+- `output_path` (Optional): Output file path
+
+**Features:**
+- Sort text lines (ascending/descending)
+- Remove duplicate lines
+- Text filtering (plain text/regex)
+- Text replacement (plain text/regex)
+- Count words, lines, characters
+- Text case transformation
+- Add line prefixes/suffixes
+- Tab to space conversion
+- Merge multiple text files
+- Trim leading/trailing whitespace
+
+**Example:**
+```
+Please sort /data/sorted.txt file in ascending order
+```
+```
+Please remove duplicate lines from /logs/error.log
+```
+```
+Please filter lines containing "ERROR" from /data/input.txt
+```
+```
+Please merge /data/file1.txt and /data/file2.txt to /output/merged.txt
+```
+```
+Please convert text in /data/input.txt to uppercase
+```
+
+## 📸 Feature Demo
+
+### File Listing Query
+Defaults to querying desktop files, or specify a path:
+
+![File Listing Query](./src/assets/images/list-files.png)
+
+### File Count Statistics
+Quickly count files in a specified directory:
+
+![File Count Statistics](./src/assets/images/count-files.png)
+
+### Image Compression Feature
+High-quality image compression, supports custom parameters:
+
+![Image Compression Feature](./src/assets/images/compress-image.png)
+
+![Compression Effect Display](./src/assets/images/compress-image-demo.png)
+
+## 🔧 Development
+
+### Development Mode
 
 ```bash
 pnpm dev
 ```
 
-### 代码格式化
+### Code Formatting
 
 ```bash
 pnpm format
 ```
 
-### 代码检查
+### Code Linting
 
 ```bash
 pnpm lint
 ```
 
-### 启动服务器
+### Start Server
 
 ```bash
-pnpm start
+bun start # Now uses Bun for faster startup
 ```
 
-## ⚠️ 注意事项
+## ⚠️ Notes
 
-1. **权限要求**: 确保 Node.js 有访问目标文件夹的权限
-2. **路径格式**: 
-   - macOS/Linux: `/Users/username/path`
-   - Windows: `C:\Users\username\path`
-3. **图片格式**: 仅支持常见的图片格式 (JPEG, PNG, WebP, TIFF, GIF)
-4. **压缩格式**: 支持ZIP、TAR、TAR.GZ格式的压缩和解压
-5. **文件操作**: 复制和移动操作支持文件和文件夹
-6. **PDF处理**: PDF合并、拆分和转图片功能完全基于纯JavaScript
-7. **图片转换**: PDF转图片需要系统支持ImageMagick或GraphicsMagick
-8. **文件权限**: 确保对源文件和目标目录有相应权限
-9. **覆盖保护**: 默认不覆盖已存在文件，需要明确设置
-10. **文件大小**: 大文件处理可能需要更长时间
-11. **调试输出**: 使用 `console.error()` 而非 `console.log()` 避免干扰 MCP 协议
+1.  **Permission Requirements**: Ensure Node.js has access to the target folders
+2.  **Path Format**: 
+    - macOS/Linux: `/Users/username/path`
+    - Windows: `C:\Users\username\path`
+3.  **Image Formats**: Only common image formats (JPEG, PNG, WebP, TIFF, GIF) are supported
+4.  **Archive Formats**: Supports ZIP, TAR, TAR.GZ for compression and extraction
+5.  **File Operations**: Copy and move operations support files and folders
+6.  **PDF Processing**: PDF merge, split, and convert-to-image functions are purely JavaScript-based
+7.  **Image Conversion**: PDF to image conversion requires ImageMagick or GraphicsMagick system support
+8.  **File Permissions**: Ensure appropriate permissions for source files and target directories
+9.  **Overwrite Protection**: By default, existing files are not overwritten; explicit setting is required
+10. **File Size**: Large file processing may take longer
+11. **Debugging Output**: Use `console.error()` instead of `console.log()` to avoid interfering with the MCP protocol
 
-## 🐛 故障排除
+## 🐛 Troubleshooting
 
-### 常见问题
+### Common Issues
 
-**1. 服务器启动失败**
+**1. Server Startup Failure**
 ```
 Error: Cannot find module 'xxx'
 ```
-**解决方案**: 确保运行了 `pnpm install` 和 `pnpm build`
+**Solution**: Ensure `bun install` (or `pnpm install`) and `pnpm build` have been run.
 
-**2. 权限错误**
+**2. Permission Error**
 ```
 Error: EACCES: permission denied
 ```
-**解决方案**: 检查文件夹访问权限，或使用具有适当权限的路径
+**Solution**: Check folder access permissions, or use a path with appropriate permissions.
 
-**3. 路径不存在**
+**3. Path Does Not Exist**
 ```
-错误：路径 /xxx 不存在
+Error: Path /xxx does not exist
 ```
-**解决方案**: 确认路径正确，使用绝对路径
+**Solution**: Confirm the path is correct, use absolute paths.
 
-**4. 图片格式不支持**
+**4. Unsupported Image Format**
 ```
-错误：不支持的图片格式 .xxx
+Error: Unsupported image format .xxx
 ```
-**解决方案**: 使用支持的图片格式 (jpg, png, webp, tiff, gif)
+**Solution**: Use a supported image format (jpg, png, webp, tiff, gif).
 
-**5. 压缩文件创建失败**
+**5. Archive Creation Failure**
 ```
-错误：创建压缩文件时发生错误
+Error: An error occurred while creating the archive
 ```
-**解决方案**: 
-- 检查文件路径是否正确
-- 确保对输出目录有写入权限
-- 检查磁盘空间是否充足
+**Solution**: 
+- Check if file paths are correct
+- Ensure write permissions for the output directory
+- Check for sufficient disk space
 
-**6. 解压文件失败**
+**6. File Extraction Failure**
 ```
-错误：目标目录不为空
+Error: Target directory is not empty
 ```
-**解决方案**: 设置 `overwrite=true` 或清空目标目录
+**Solution**: Set `overwrite=true` or clear the target directory.
 
-**7. 不支持的压缩格式**
+**7. Unsupported Archive Format**
 ```
-错误：不支持的压缩格式
+Error: Unsupported archive format
 ```
-**解决方案**: 使用支持的格式 (.zip, .tar, .tar.gz, .tgz)
+**Solution**: Use a supported format (.zip, .tar, .tar.gz, .tgz).
 
-**8. 文件复制失败**
+**8. File Copy Failure**
 ```
-错误：目标路径已存在
+Error: Target path already exists
 ```
-**解决方案**: 设置 `overwrite=true` 或选择不同的目标路径
+**Solution**: Set `overwrite=true` or choose a different target path.
 
-**9. 文件移动失败**
+**9. File Move Failure**
 ```
-错误：源路径和目标路径不能相同
+Error: Source path and target path cannot be the same
 ```
-**解决方案**: 确保源路径和目标路径不同
+**Solution**: Ensure source and target paths are different.
 
-**10. 权限不足**
+**10. Insufficient Permissions**
 ```
 Error: EACCES: permission denied
 ```
-**解决方案**: 
-- 检查源文件和目标目录的访问权限
-- 确保有足够的磁盘空间
-- 避免移动系统关键文件
+**Solution**: 
+- Check access permissions for source files and target directories
+- Ensure sufficient disk space
+- Avoid moving critical system files
 
-**11. PDF文件损坏**
+**11. Corrupted PDF File**
 ```
-错误：无法处理PDF文件
+Error: Unable to process PDF file
 ```
-**解决方案**: 
-- 检查PDF文件是否完整且未损坏
-- 确认PDF文件不是受密码保护的
-- 尝试用其他PDF查看器验证文件
+**Solution**: 
+- Check if the PDF file is complete and undamaged
+- Confirm the PDF file is not password protected
+- Try verifying the file with another PDF viewer
 
-**12. PDF转图片失败**
+**12. PDF to Image Conversion Failure**
 ```
-错误：批量转换失败
+Error: Batch conversion failed
 ```
-**解决方案**: 
-- 确保系统已安装ImageMagick或GraphicsMagick
-- 检查系统PATH环境变量配置
-- 降低DPI设置或减少页面数量
+**Solution**: 
+- Ensure ImageMagick or GraphicsMagick is installed on the system
+- Check system PATH environment variable configuration
+- Lower DPI settings or reduce the number of pages
 
-**13. 页面范围错误**
+**13. Page Range Error**
 ```
-错误：页面范围超出有效范围
+Error: Page range out of valid bounds
 ```
-**解决方案**: 
-- 检查PDF文件实际页数
-- 确保页面范围格式正确（如 "1-5"、"1,3,5"）
-- 页面编号从1开始，不是0
+**Solution**: 
+- Check the actual number of pages in the PDF file
+- Ensure page range format is correct (e.g., "1-5", "1,3,5")
+- Page numbering starts from 1, not 0
 
-### 调试技巧
+### Debugging Tips
 
-1. 查看 Claude Desktop 的开发者控制台
-2. 检查服务器日志输出
-3. 使用 [MCP Inspector](https://github.com/modelcontextprotocol/inspector) 进行调试
-
+1.  Check Claude Desktop's developer console
+2.  Check server log output
+3.  Use [MCP Inspector](https://github.com/modelcontextprotocol/inspector) for debugging

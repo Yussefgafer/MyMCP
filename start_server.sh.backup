@@ -1,0 +1,72 @@
+#!/bin/bash
+
+# --- Helper Functions ---
+log() {
+    echo "🔹 $1"
+}
+
+log_success() {
+    echo "✅ $1"
+}
+
+log_warning() {
+    echo "⚠️ $1"
+}
+
+log_error() {
+    echo "❌ $1"
+}
+
+calculate_hash() {
+    find "src" -type f -name "*.ts" -print0 | sort -z | xargs -0 cat | sha256sum | awk '{print $1}'
+}
+
+# --- Configuration ---
+PROJECT_PATH=$(pwd)
+SRC_DIR="src"
+STABLE_DIST_DIR="stable_build/dist"
+STABLE_HASH_FILE=".build_hash_stable"
+
+# --- Main Logic ---
+NEW_HASH=$(calculate_hash)
+STABLE_HASH=""
+if [ -f "$STABLE_HASH_FILE" ]; then
+    STABLE_HASH=$(cat "$STABLE_HASH_FILE")
+fi
+
+if [ "$NEW_HASH" != "$STABLE_HASH" ]; then
+    log_warning "Source code has changed. Attempting to build a new version..."
+    
+    # Use direct commands for reliability
+    if ! (bun install && pnpm build); then
+        log_error "Build failed! No changes will be made."
+        exit 1
+    else
+        log_success "Build successful. Now, attempting to run the server directly."
+        log "If the server starts successfully, press Ctrl+C to stop it."
+        log "Please paste the entire output after running this script."
+        
+        # --- DIRECT EXECUTION FOR DEBUGGING ---
+        bun run "$PROJECT_PATH/dist/index.js"
+        
+        log_warning "Manual server test finished. To apply the new build, you must run the full, final script."
+    fi
+else
+    log_success "Source code has not changed. Skipping build."
+    
+    # Final Step: Always start the stable version
+    log "Starting the stable server..."
+    pkill -f "$STABLE_DIST_DIR/index.js" || true
+    sleep 1
+    
+    if [ ! -d "$STABLE_DIST_DIR" ]; then
+        log_error "Stable build directory not found! Cannot start server."
+        exit 1
+    fi
+    
+    SERVER_LOG_FILE="server.log"
+    nohup bun run "$STABLE_DIST_DIR/index.js" > "$SERVER_LOG_FILE" 2>&1 &
+    
+    log_success "Stable server started. Logs are available in $SERVER_LOG_FILE"
+    notify-send "MCP Server" "Stable version started successfully."
+fi

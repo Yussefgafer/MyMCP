@@ -1,0 +1,4 @@
+onlyBuiltDependencies:
+  - core-js
+  - sharp
+  - sqlite3
